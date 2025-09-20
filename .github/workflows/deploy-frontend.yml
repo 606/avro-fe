@@ -53,7 +53,7 @@ jobs:
       - name: Build Quartz Frontend
         run: npx quartz build --concurrency=4
       
-      # Build KB (conditional)
+      # Build KB into subfolder
       - name: Install KB Dependencies
         if: github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true
         working-directory: ./kb
@@ -65,7 +65,7 @@ jobs:
         with:
           path: |
             kb/public/static
-            kb/quartz/build
+            kb/.quartz-cache
           key: kb-quartz-build-${{ runner.os }}-${{ hashFiles('kb/content/**', 'kb/quartz/**') }}
           restore-keys: |
             kb-quartz-build-${{ runner.os }}-
@@ -75,12 +75,13 @@ jobs:
         working-directory: ./kb
         run: npx quartz build --concurrency=4
       
-      - name: Move KB build to subfolder
+      # КЛЮЧОВА ЗМІНА: копіювати KB у підпапку основного сайту
+      - name: Copy KB to main site subfolder
         if: github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true
         run: |
           mkdir -p public/kb
-          find kb/public -maxdepth 1 -type f -exec mv {} public/kb/ \;
-          find kb/public -maxdepth 1 -type d ! -name '.' -exec mv {} public/kb/ \;
+          cp -r kb/public/* public/kb/
+          # Переконайтесь що всі посилання у KB відносні до /kb/
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -98,39 +99,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout for KB deployment
-        if: github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true
-        uses: actions/checkout@v5
-        with:
-          fetch-depth: 1
-          submodules: true
-          token: ${{ secrets.GITHUB_TOKEN }}
-      
-      - name: Deploy Frontend to GitHub Pages
+      - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-      
-      # KB Deployment (conditional)
-      - name: Extract KB files from artifact
-        if: github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true
-        run: |
-          # Download the pages artifact manually
-          mkdir -p ./temp-pages
-          # Note: This step might need adjustment based on how the artifact is structured
-          # The KB files should be in public/kb/ from the build step
-      
-      - name: Deploy KB to its repository
-        if: github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true
-        working-directory: ./kb
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Copy KB files from the main public folder
-          rm -rf public/*
-          cp -r ../public/kb/* public/ 2>/dev/null || echo "No KB files found"
-          
-          # Commit and push to kb repository
-          git add public/
-          git commit -m "Deploy KB from avro-fe workflow [skip ci]" || exit 0
-          git push origin main
