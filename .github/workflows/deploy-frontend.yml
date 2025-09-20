@@ -65,3 +65,45 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  deploy-avro-kb:
+    runs-on: ubuntu-22.04
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[deploy-kb]')
+    steps:
+      - name: Checkout with submodules
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          submodules: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: 'npm'
+          cache-dependency-path: kb/package-lock.json
+
+      - name: Install KB Dependencies
+        working-directory: ./kb
+        run: npm ci --prefer-offline
+
+      - name: Cache KB Quartz build
+        uses: actions/cache@v4
+        with:
+          path: |
+            kb/public/static
+            kb/quartz/build
+          key: kb-quartz-build-${{ runner.os }}-${{ hashFiles('kb/content/**', 'kb/quartz/**') }}
+          restore-keys: |
+            kb-quartz-build-${{ runner.os }}-
+
+      - name: Build KB Quartz
+        working-directory: ./kb
+        run: npx quartz build --concurrency=4
+
+      - name: Deploy KB to GitHub Pages
+        working-directory: ./kb
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          npx quartz sync --no-pull
