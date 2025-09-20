@@ -106,8 +106,8 @@ jobs:
           retention-days: 1
 
   deploy-kb:
-    needs: [build-fe, build-kb]  # Додаємо build-fe як залежність
-    if: github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true && !cancelled() && !failure()
+    needs: build-kb
+    if: always() && needs.build-kb.result == 'success'
     environment:
       name: kb-pages
     runs-on: ubuntu-latest
