@@ -1,0 +1,30 @@
+version: '3'
+
+tasks:
+  setup:
+    desc: Встановити залежності
+    cmds:
+      - npm install
+
+  build:
+    desc: Зібрати Quartz Frontend
+    cmds:
+      - npm ci --prefer-offline
+      - npx quartz build --concurrency=4
+
+  serve:
+    desc: Запустити Quartz локально для розробки
+    cmds:
+      - npm install
+      - npx quartz build --serve
+
+  clean:
+    desc: Очистити всі build артефакти
+    cmds:
+      - rm -rf public/* .quartz-cache/*
+
+  check:
+    desc: Перевірити стан репозиторію
+    cmds:
+      - echo "Frontend repo status:"
+      - git status --short
