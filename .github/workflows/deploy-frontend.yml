@@ -53,7 +53,7 @@ jobs:
       - name: Build Quartz Frontend
         run: npx quartz build --concurrency=4
       
-      # Build KB into subfolder
+      # Build KB (conditional)
       - name: Install KB Dependencies
         if: github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true
         working-directory: ./kb
@@ -70,18 +70,26 @@ jobs:
           restore-keys: |
             kb-quartz-build-${{ runner.os }}-
       
+      - name: Configure KB baseUrl for subfolder
+        if: github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true
+        working-directory: ./kb
+        run: |
+          # Update baseUrl in quartz.config.ts to include /kb path
+          sed -i 's|baseUrl: "[^"]*"|baseUrl: "https://avro.cc/kb"|g' quartz.config.ts || true
+          sed -i 's|baseUrl: '\''[^'\'']*'\''|baseUrl: '\''https://avro.cc/kb'\''|g' quartz.config.ts || true
+      
       - name: Build KB Quartz
         if: github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true
         working-directory: ./kb
         run: npx quartz build --concurrency=4
       
-      # КЛЮЧОВА ЗМІНА: копіювати KB у підпапку основного сайту
       - name: Copy KB to main site subfolder
         if: github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true
         run: |
           mkdir -p public/kb
           cp -r kb/public/* public/kb/
-          # Переконайтесь що всі посилання у KB відносні до /kb/
+          echo "KB files copied to public/kb/"
+          ls -la public/kb/
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
