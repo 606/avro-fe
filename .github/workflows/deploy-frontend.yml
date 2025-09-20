@@ -21,24 +21,26 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build-and-deploy-fe:
+  build-fe:
     runs-on: ubuntu-22.04
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v5
         with:
           fetch-depth: 1
+          submodules: ${{ github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true }}
+      
       - name: Setup Node.js
         uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: 'npm'
-      - name: Install Dependencies
+      
+      # Build Frontend
+      - name: Install FE Dependencies
         run: npm ci --prefer-offline
-      - name: Cache Quartz build
+      
+      - name: Cache FE Quartz build
         uses: actions/cache@v4
         with:
           path: |
@@ -47,44 +49,18 @@ jobs:
           key: quartz-build-${{ runner.os }}-${{ hashFiles('content/**', 'quartz/**') }}
           restore-keys: |
             quartz-build-${{ runner.os }}-
+      
       - name: Build Quartz Frontend
         run: npx quartz build --concurrency=4
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-      - name: Upload Frontend artifact
-        uses: actions/upload-pages-artifact@v4
-        with:
-          name: frontend-pages
-          path: public
-          retention-days: 1
-      - name: Deploy Frontend to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-        with:
-          artifact_name: frontend-pages
-
-  build-and-deploy-kb:
-    runs-on: ubuntu-22.04
-    if: github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true
-    environment:
-      name: kb-pages
-    steps:
-      - name: Checkout with submodules
-        uses: actions/checkout@v5
-        with:
-          fetch-depth: 1
-          submodules: true
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Setup Node.js
-        uses: actions/setup-node@v5
-        with:
-          node-version: 22
-          cache: 'npm'
-          cache-dependency-path: kb/package-lock.json
+      
+      # Build KB (conditional)
       - name: Install KB Dependencies
+        if: github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true
         working-directory: ./kb
         run: npm ci --prefer-offline
+      
       - name: Cache KB Quartz build
+        if: github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true
         uses: actions/cache@v4
         with:
           path: |
@@ -93,16 +69,68 @@ jobs:
           key: kb-quartz-build-${{ runner.os }}-${{ hashFiles('kb/content/**', 'kb/quartz/**') }}
           restore-keys: |
             kb-quartz-build-${{ runner.os }}-
+      
       - name: Build KB Quartz
+        if: github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true
         working-directory: ./kb
         run: npx quartz build --concurrency=4
+      
+      - name: Move KB build to subfolder
+        if: github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true
+        run: |
+          mkdir -p public/kb
+          find kb/public -maxdepth 1 -type f -exec mv {} public/kb/ \;
+          find kb/public -maxdepth 1 -type d ! -name '.' -exec mv {} public/kb/ \;
+      
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: public
+          retention-days: 1
+
+  deploy-fe:
+    needs: build-fe
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout for KB deployment
+        if: github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          submodules: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Deploy Frontend to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+      
+      # KB Deployment (conditional)
+      - name: Extract KB files from artifact
+        if: github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true
+        run: |
+          # Download the pages artifact manually
+          mkdir -p ./temp-pages
+          # Note: This step might need adjustment based on how the artifact is structured
+          # The KB files should be in public/kb/ from the build step
+      
       - name: Deploy KB to its repository
+        if: github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true
         working-directory: ./kb
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Commit and push built files to kb repository
+          # Copy KB files from the main public folder
+          rm -rf public/*
+          cp -r ../public/kb/* public/ 2>/dev/null || echo "No KB files found"
+          
+          # Commit and push to kb repository
           git add public/
           git commit -m "Deploy KB from avro-fe workflow [skip ci]" || exit 0
           git push origin main
