@@ -4,12 +4,6 @@ on:
     branches:
       - main
   workflow_dispatch:
-    inputs:
-      deploy_kb:
-        description: 'Deploy KB as well?'
-        required: false
-        default: false
-        type: boolean
 
 permissions:
   contents: read
@@ -28,7 +22,6 @@ jobs:
         uses: actions/checkout@v5
         with:
           fetch-depth: 1
-          submodules: ${{ github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true }}
       
       - name: Setup Node.js
         uses: actions/setup-node@v5
@@ -52,44 +45,6 @@ jobs:
       
       - name: Build Quartz Frontend
         run: npx quartz build --concurrency=4
-      
-      # Build KB (conditional)
-      - name: Install KB Dependencies
-        if: github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true
-        working-directory: ./kb
-        run: npm ci --prefer-offline
-      
-      - name: Cache KB Quartz build
-        if: github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true
-        uses: actions/cache@v4
-        with:
-          path: |
-            kb/public/static
-            kb/.quartz-cache
-          key: kb-quartz-build-${{ runner.os }}-${{ hashFiles('kb/content/**', 'kb/quartz/**') }}
-          restore-keys: |
-            kb-quartz-build-${{ runner.os }}-
-      
-      - name: Configure KB baseUrl for subfolder
-        if: github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true
-        working-directory: ./kb
-        run: |
-          # Update baseUrl in quartz.config.ts to include /kb path
-          sed -i 's|baseUrl: "[^"]*"|baseUrl: "https://avro.cc/kb"|g' quartz.config.ts || true
-          sed -i 's|baseUrl: '\''[^'\'']*'\''|baseUrl: '\''https://avro.cc/kb'\''|g' quartz.config.ts || true
-      
-      - name: Build KB Quartz
-        if: github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true
-        working-directory: ./kb
-        run: npx quartz build --concurrency=4
-      
-      - name: Copy KB to main site subfolder
-        if: github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true
-        run: |
-          mkdir -p public/kb
-          cp -r kb/public/* public/kb/
-          echo "KB files copied to public/kb/"
-          ls -la public/kb/
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
