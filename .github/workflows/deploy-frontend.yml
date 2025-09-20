@@ -5,6 +5,12 @@ on:
     branches:
       - main
   workflow_dispatch:
+    inputs:
+      deploy_kb:
+        description: 'Deploy KB as well?'
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: read
@@ -71,7 +77,7 @@ jobs:
 
   build-kb:
     runs-on: ubuntu-22.04
-    if: github.event_name == 'workflow_dispatch'
+    if: github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true
     steps:
       - name: Checkout with submodules
         uses: actions/checkout@v5
@@ -113,7 +119,7 @@ jobs:
 
   deploy-kb:
     needs: build-kb
-    if: github.event_name == 'workflow_dispatch'
+    if: github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true
     environment:
       name: kb-pages
     runs-on: ubuntu-latest
