@@ -16,7 +16,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  build-fe:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
@@ -49,26 +49,29 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
-      - name: Upload artifact
+      - name: Upload Frontend artifact
         uses: actions/upload-pages-artifact@v4
         with:
+          name: frontend-pages
           path: public
           retention-days: 1
 
-  deploy:
-    needs: build
+  deploy-fe:
+    needs: build-fe
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy Frontend to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: frontend-pages
 
-  deploy-avro-kb:
+  build-kb:
     runs-on: ubuntu-22.04
-    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.ref == 'refs/heads/main')
+    if: github.event_name == 'workflow_dispatch'
     steps:
       - name: Checkout with submodules
         uses: actions/checkout@v5
@@ -101,9 +104,44 @@ jobs:
         working-directory: ./kb
         run: npx quartz build --concurrency=4
 
-      - name: Deploy KB to GitHub Pages
+      - name: Upload KB artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          name: kb-pages
+          path: kb/public
+          retention-days: 1
+
+  deploy-kb:
+    needs: build-kb
+    if: github.event_name == 'workflow_dispatch'
+    environment:
+      name: kb-pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout KB submodule
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          submodules: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Download KB artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: kb-pages
+          path: ./kb-build
+
+      - name: Deploy KB to its repository
         working-directory: ./kb
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          npx quartz sync --no-pull
+          
+          # Copy built files to kb repo
+          rm -rf public/*
+          cp -r ../kb-build/* public/
+          
+          # Commit and push to kb repository
+          git add public/
+          git commit -m "Deploy KB from avro-fe workflow [skip ci]" || exit 0
+          git push origin main
