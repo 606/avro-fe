@@ -1,4 +1,4 @@
-name: deploy-avro-fe
+name: Deploy Avro Frontend
 on:
   push:
     branches:
@@ -7,11 +7,6 @@ on:
     inputs:
       deploy_kb:
         description: 'Deploy KB as well?'
-        required: false
-        default: false
-        type: boolean
-      build_only:
-        description: 'Only build without deployment?'
         required: false
         default: false
         type: boolean
@@ -62,7 +57,6 @@ jobs:
 
   deploy-fe:
     needs: build-fe
-    if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.build_only != true)
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -112,8 +106,8 @@ jobs:
           retention-days: 1
 
   deploy-kb:
-    needs: build-kb
-    if: github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true && success('build-kb')
+    needs: [build-fe, build-kb]  # Додаємо build-fe як залежність
+    if: github.event_name == 'workflow_dispatch' && inputs.deploy_kb == true && !cancelled() && !failure()
     environment:
       name: kb-pages
     runs-on: ubuntu-latest
