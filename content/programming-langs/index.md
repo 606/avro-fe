@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"programming-langs programming-languages pl pl-moc","title":"programming-langs","created":"2025-11-15T21:19:46.506+02:00","modified":"2025-11-15T23:56:03.418+02:00","tags":["programming-langs","moc"],"cssclasses":""}
+{"publish":true,"aliases":"programming-langs programming-languages pl pl-moc","title":"programming-langs","created":"2025-11-16T00:05:21.433+02:00","modified":"2025-11-16T00:05:21.433+02:00","tags":["programming-langs","moc"],"cssclasses":""}
 ---
 
 

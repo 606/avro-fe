@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"avro-vscode avro-vscode-moc","title":"avro-vscode","created":"2025-11-15T21:50:11.345+02:00","modified":"2025-11-16T00:00:55.227+02:00","tags":["avro","pet-projects","vscode","moc"],"cssclasses":""}
+{"publish":true,"aliases":"avro-vscode avro-vscode-moc","title":"avro-vscode","created":"2025-11-16T00:05:36.402+02:00","modified":"2025-11-16T00:05:36.402+02:00","tags":["avro","pet-projects","vscode","moc"],"cssclasses":""}
 ---
 
 
