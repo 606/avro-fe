@@ -1,0 +1,11 @@
+---
+{"publish":true,"aliases":"csharp-matching-core","title":"Matching Core","enableToc":true,"created":"2025-11-16T01:08:54.848+02:00","modified":"2025-11-16T01:10:42.454+02:00","tags":["dotnet","language","patterns"],"cssclasses":""}
+---
+
+
+## Backlinks
+- [[dotnet/language/csharp/patterns/index\|Patterns Stack]]
+- [[dotnet/language/csharp/index\|C# Layer]]
+
+## Children
+- [[dotnet/language/csharp/patterns/matching/switch-funnels/index\|Switch Funnels]]
