@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"gpt4all GPT4All","title":"GPT4All","enableToc":true,"created":"2025-11-16T00:23:05.462+02:00","modified":"2025-11-16T00:23:24.168+02:00","tags":["ai-agents","localllm","gpt4all","local-llm"],"cssclasses":""}
+{"publish":true,"aliases":"gpt4all GPT4All","title":"GPT4All","enableToc":true,"created":"2025-11-16T00:23:05.462+02:00","modified":"2025-11-16T00:26:46.885+02:00","tags":["ai-agents","localllm","gpt4all","local-llm"],"cssclasses":""}
 ---
 
 

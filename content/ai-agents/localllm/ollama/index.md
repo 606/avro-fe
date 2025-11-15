@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"ollama Ollama","title":"Ollama","enableToc":true,"created":"2025-11-16T00:23:05.440+02:00","modified":"2025-11-16T00:23:10.283+02:00","tags":["ai-agents","localllm","ollama","local-llm"],"cssclasses":""}
+{"publish":true,"aliases":"ollama Ollama","title":"Ollama","enableToc":true,"created":"2025-11-16T00:23:05.440+02:00","modified":"2025-11-16T00:26:46.885+02:00","tags":["ai-agents","localllm","ollama","local-llm"],"cssclasses":""}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"localllm Local LLM local-llm-tools","title":"Local LLM Tools","enableToc":true,"created":"2025-11-16T00:22:05.146+02:00","modified":"2025-11-16T00:23:45.707+02:00","tags":["ai-agents","localllm","free","open-source"],"cssclasses":""}
+{"publish":true,"aliases":"localllm Local LLM local-llm-tools","title":"Local LLM Tools","enableToc":true,"created":"2025-11-16T00:22:05.146+02:00","modified":"2025-11-16T00:26:46.885+02:00","tags":["ai-agents","localllm","free","open-source"],"cssclasses":""}
 ---
 
 

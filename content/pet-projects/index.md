@@ -1,11 +1,11 @@
 ---
-{"publish":true,"aliases":"pet-projects pet-projects-moc","title":"pet-projects","created":"2025-11-16T00:05:21.431+02:00","modified":"2025-11-16T00:07:28.941+02:00","tags":["pet-projects","moc"],"cssclasses":""}
+{"publish":true,"aliases":"pet-projects pet-projects-moc","title":"pet-projects","created":"2025-11-16T00:05:21.431+02:00","modified":"2025-11-16T00:29:34.350+02:00","tags":["pet-projects","moc"],"cssclasses":""}
 ---
 
 
 Pet Projects index
 
-- [[pet-projects/avro-anime/index\|avro-anime]]
+- [[avro-anime/index\|avro-anime]]
 - [[pet-projects/avro-auth/index\|avro-auth]]
 - [[pet-projects/avro-autokit/index\|avro-autokit]]
 - [[pet-projects/avro-autosql/index\|avro-autosql]]

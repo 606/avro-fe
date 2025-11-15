@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"text-generation-webui oobabooga text-gen-webui","title":"Text Generation WebUI","enableToc":true,"created":"2025-11-16T00:23:05.531+02:00","modified":"2025-11-16T00:23:40.164+02:00","tags":["ai-agents","localllm","text-generation-webui","oobabooga","local-llm"],"cssclasses":""}
+{"publish":true,"aliases":"text-generation-webui oobabooga text-gen-webui","title":"Text Generation WebUI","enableToc":true,"created":"2025-11-16T00:23:05.531+02:00","modified":"2025-11-16T00:26:46.885+02:00","tags":["ai-agents","localllm","text-generation-webui","oobabooga","local-llm"],"cssclasses":""}
 ---
 
 
