@@ -1,5 +1,6 @@
 ---
-{"publish":true,"title":"python","created":"2025-11-15T21:20:15.817+02:00","modified":"2025-11-15T23:47:53.409+02:00","cssclasses":""}
+{"publish":true,"aliases":"python py python-moc","title":"python","created":"2025-11-15T21:20:15.817+02:00","modified":"2025-11-15T23:56:03.458+02:00","tags":["python","moc"],"cssclasses":""}
 ---
 
-python index moc
+
+[[programming-langs/python/python-moc\|Python MOC]]

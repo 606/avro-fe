@@ -1,8 +1,6 @@
 ---
-{"publish":true,"aliases":"g e t t i n g - s t a r t e d","title":"getting-started","created":"2025-11-15T22:30:45.179+02:00","modified":"2025-11-15T23:47:40.907+02:00","tags":["dotnet"],"cssclasses":""}
+{"publish":true,"aliases":"getting-started gs","title":"getting-started","created":"2025-11-15T22:30:45.179+02:00","modified":"2025-11-15T23:56:03.444+02:00","tags":["dotnet","moc"],"cssclasses":""}
 ---
 
 
-getting started with dotnet index moc
-
-parent: [[dotnet/index\|.net]]
+Getting Started with .NET index MOC

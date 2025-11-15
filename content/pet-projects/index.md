@@ -1,11 +1,9 @@
 ---
-{"publish":true,"title":"pet-projects","created":"2025-11-15T20:59:12.844+02:00","modified":"2025-11-15T23:48:00.347+02:00","cssclasses":""}
+{"publish":true,"aliases":"pet-projects pet-projects-moc","title":"pet-projects","created":"2025-11-15T20:59:12.844+02:00","modified":"2025-11-15T23:56:03.418+02:00","tags":["pet-projects","moc"],"cssclasses":""}
 ---
 
 
-parent: [[index\|avro.cc index]]
-
-pet-projects index
+Pet Projects index
 
 - [[pet-projects/avro-cli/index\|avro-cli]]
 - [[pet-projects/avro-docs/index\|avro-docs]]

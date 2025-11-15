@@ -1,14 +1,13 @@
 ---
-{"publish":true,"created":"2025-11-15T21:19:46.506+02:00","modified":"2025-11-15T23:47:45.732+02:00","cssclasses":""}
+{"publish":true,"aliases":"programming-langs programming-languages pl pl-moc","title":"programming-langs","created":"2025-11-15T21:19:46.506+02:00","modified":"2025-11-15T23:56:03.418+02:00","tags":["programming-langs","moc"],"cssclasses":""}
 ---
 
-parent: [[index\|avro.cc index]]
 
-pr-langs index moc
+Programming Languages index MOC
 
-- [[programming-langs/csharp/index\|csharp]]
-- [[programming-langs/javascript/index\|javascript]]
-- [[programming-langs/typescript/index\|typescript]]
-- [[programming-langs/python/index\|python]]
-- [[programming-langs/golang/index\|golang]]
-- [[programming-langs/rust/index\|rust]]
+- [[programming-langs/csharp/index\|C#]]
+- [[programming-langs/javascript/index\|JavaScript]]
+- [[programming-langs/typescript/index\|TypeScript]]
+- [[programming-langs/python/index\|Python]]
+- [[programming-langs/golang/index\|Go]]
+- [[programming-langs/rust/index\|Rust]]

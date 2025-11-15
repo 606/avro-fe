@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"a v r o . c c i n d e x","title":"avro.cc index","created":"2025-11-15T20:55:03.433+02:00","modified":"2025-11-15T23:46:01.580+02:00","cssclasses":""}
+{"publish":true,"aliases":"avro.cc index avro-cc-github-606","title":"avro.cc index","created":"2025-11-15T20:55:03.433+02:00","modified":"2025-11-15T23:56:03.397+02:00","tags":["root","moc"],"cssclasses":""}
 ---
 
 

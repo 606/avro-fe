@@ -1,9 +1,8 @@
 ---
-{"publish":true,"aliases":"c #","title":"c#","created":"2025-11-15T21:19:58.658+02:00","modified":"2025-11-15T23:47:53.250+02:00","tags":["csharp"],"cssclasses":""}
+{"publish":true,"aliases":"c# csharp cs csharp-moc","title":"c#","created":"2025-11-15T21:19:58.658+02:00","modified":"2025-11-15T23:56:03.458+02:00","tags":["csharp","moc"],"cssclasses":""}
 ---
 
-csharp index moc
 
+C# index MOC
 
-parent: [[programming-langs/index\|programming-langs]]
-- relates: [[dotnet/index\|.net]]
+Relates to: [[dotnet/index\|.NET]]
