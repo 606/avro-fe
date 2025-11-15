@@ -91,8 +91,10 @@ const config: QuartzConfig = {
           // спочатку сортуємо за order
           if (orderA !== orderB) return orderA - orderB
           
-          // якщо order однакові, сортуємо за title
-          return a.fileData.title.localeCompare(b.fileData.title)
+          // якщо order однакові, сортуємо за title (з перевіркою)
+          const titleA = a.fileData.title ?? a.fileData.basename ?? ""
+          const titleB = b.fileData.title ?? b.fileData.basename ?? ""
+          return titleA.localeCompare(titleB)
         },
       }),
       Plugin.TagPage(),
