@@ -82,7 +82,19 @@ const config: QuartzConfig = {
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
       Plugin.ContentPage(),
-      Plugin.FolderPage(),
+      Plugin.FolderPage({
+        sort: (a, b) => {
+          // беремо order з frontmatter
+          const orderA = (a.frontmatter?.order ?? Infinity) as number
+          const orderB = (b.frontmatter?.order ?? Infinity) as number
+          
+          // спочатку сортуємо за order
+          if (orderA !== orderB) return orderA - orderB
+          
+          // якщо order однакові, сортуємо за title
+          return a.fileData.title.localeCompare(b.fileData.title)
+        },
+      }),
       Plugin.TagPage(),
       Plugin.ContentIndex({
         enableSiteMap: true,
