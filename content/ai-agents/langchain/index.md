@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"langchain LangChain langchain-moc","title":"LangChain","created":"2025-11-16T00:10:57.055+02:00","modified":"2025-11-16T00:11:21.830+02:00","tags":["ai-agents","langchain","moc"],"cssclasses":""}
+{"publish":true,"aliases":"langchain LangChain langchain-moc","title":"LangChain","enableToc":true,"created":"2025-11-16T00:13:54.382+02:00","modified":"2025-11-16T00:13:54.382+02:00","tags":["ai-agents","langchain","moc"],"cssclasses":""}
 ---
 
 

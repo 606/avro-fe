@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"autogpt AutoGPT","title":"AutoGPT","created":"2025-11-16T00:11:21.830+02:00","modified":"2025-11-16T00:11:22.200+02:00","tags":["ai-agents","autogpt",["python   - autonomous   - gpt-4   - planning"]],"cssclasses":""}
+{"publish":true,"aliases":"autogpt AutoGPT","title":"AutoGPT","enableToc":true,"created":"2025-11-16T00:14:00.348+02:00","modified":"2025-11-16T00:14:00.348+02:00","tags":["ai-agents","autogpt",["python   - autonomous   - gpt-4   - planning"]],"cssclasses":""}
 ---
 
 

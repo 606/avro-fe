@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"autodev AutoDev","title":"AutoDev","created":"2025-11-16T00:11:21.831+02:00","modified":"2025-11-16T00:11:22.226+02:00","tags":["ai-agents","autodev",["development   - code-generation   - automation   - ide"]],"cssclasses":""}
+{"publish":true,"aliases":"autodev AutoDev","title":"AutoDev","enableToc":true,"created":"2025-11-16T00:14:00.346+02:00","modified":"2025-11-16T00:14:00.346+02:00","tags":["ai-agents","autodev",["development   - code-generation   - automation   - ide"]],"cssclasses":""}
 ---
 
 

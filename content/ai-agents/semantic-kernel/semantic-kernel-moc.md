@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"semantic-kernel Semantic Kernel","title":"Semantic Kernel","created":"2025-11-16T00:11:21.831+02:00","modified":"2025-11-16T00:11:22.225+02:00","tags":["ai-agents","semantic-kernel",["csharp   - dotnet   - microsoft   - llm   - sdk"]],"cssclasses":""}
+{"publish":true,"aliases":"semantic-kernel Semantic Kernel","title":"Semantic Kernel","enableToc":true,"created":"2025-11-16T00:14:00.359+02:00","modified":"2025-11-16T00:14:00.359+02:00","tags":["ai-agents","semantic-kernel",["csharp   - dotnet   - microsoft   - llm   - sdk"]],"cssclasses":""}
 ---
 
 

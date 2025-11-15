@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"ai-agents ai-agents-moc AI Agents MOC","title":"AI Agents","created":"2025-11-15T21:28:26.702+02:00","modified":"2025-11-16T00:11:32.442+02:00","tags":["ai-agents","moc","ai","agents"],"cssclasses":""}
+{"publish":true,"aliases":"ai-agents ai-agents-moc AI Agents MOC","title":"AI Agents","enableToc":true,"created":"2025-11-15T21:28:26.702+02:00","modified":"2025-11-16T00:14:11.427+02:00","tags":["ai-agents","moc","ai","agents"],"cssclasses":""}
 ---
 
 

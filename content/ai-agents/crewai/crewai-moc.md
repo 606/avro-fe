@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"crewai CrewAI","title":"CrewAI","created":"2025-11-16T00:11:21.831+02:00","modified":"2025-11-16T00:11:22.216+02:00","tags":["ai-agents","crewai",["python   - multi-agent   - collaboration   - orchestration"]],"cssclasses":""}
+{"publish":true,"aliases":"crewai CrewAI","title":"CrewAI","enableToc":true,"created":"2025-11-16T00:14:00.353+02:00","modified":"2025-11-16T00:14:00.354+02:00","tags":["ai-agents","crewai",["python   - multi-agent   - collaboration   - orchestration"]],"cssclasses":""}
 ---
 
 

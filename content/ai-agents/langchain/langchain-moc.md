@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"langchain LangChain","title":"LangChain","created":"2025-11-16T00:11:21.830+02:00","modified":"2025-11-16T00:11:22.192+02:00","tags":["ai-agents","langchain",["python   - javascript   - llm   - framework"]],"cssclasses":""}
+{"publish":true,"aliases":"langchain LangChain","title":"LangChain","enableToc":true,"created":"2025-11-16T00:14:00.357+02:00","modified":"2025-11-16T00:14:00.357+02:00","tags":["ai-agents","langchain",["python   - javascript   - llm   - framework"]],"cssclasses":""}
 ---
 
 

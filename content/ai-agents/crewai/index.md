@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"crewai CrewAI crewai-moc","title":"CrewAI","created":"2025-11-16T00:10:57.073+02:00","modified":"2025-11-16T00:11:21.831+02:00","tags":["ai-agents","crewai","moc"],"cssclasses":""}
+{"publish":true,"aliases":"crewai CrewAI crewai-moc","title":"CrewAI","enableToc":true,"created":"2025-11-16T00:13:54.378+02:00","modified":"2025-11-16T00:13:54.378+02:00","tags":["ai-agents","crewai","moc"],"cssclasses":""}
 ---
 
 

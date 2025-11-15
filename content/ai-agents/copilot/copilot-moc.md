@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"copilot GitHub Copilot","title":"GitHub Copilot","created":"2025-11-16T00:11:21.831+02:00","modified":"2025-11-16T00:11:22.229+02:00","tags":["ai-agents","copilot",["github   - code-assistant   - ai-pair-programming   - ide"]],"cssclasses":""}
+{"publish":true,"aliases":"copilot GitHub Copilot","title":"GitHub Copilot","enableToc":true,"created":"2025-11-16T00:14:00.352+02:00","modified":"2025-11-16T00:14:00.352+02:00","tags":["ai-agents","copilot",["github   - code-assistant   - ai-pair-programming   - ide"]],"cssclasses":""}
 ---
 
 

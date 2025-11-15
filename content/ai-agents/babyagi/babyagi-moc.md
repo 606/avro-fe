@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"babyagi BabyAGI","title":"BabyAGI","created":"2025-11-16T00:11:21.831+02:00","modified":"2025-11-16T00:11:22.209+02:00","tags":["ai-agents","babyagi",["python   - task-management   - autonomous   - openai"]],"cssclasses":""}
+{"publish":true,"aliases":"babyagi BabyAGI","title":"BabyAGI","enableToc":true,"created":"2025-11-16T00:14:00.350+02:00","modified":"2025-11-16T00:14:00.350+02:00","tags":["ai-agents","babyagi",["python   - task-management   - autonomous   - openai"]],"cssclasses":""}
 ---
 
 

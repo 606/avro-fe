@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"cursor Cursor","title":"Cursor","created":"2025-11-16T00:11:21.831+02:00","modified":"2025-11-16T00:11:22.234+02:00","tags":["ai-agents","cursor",["editor   - ide   - code-assistant   - ai-native"]],"cssclasses":""}
+{"publish":true,"aliases":"cursor Cursor","title":"Cursor","enableToc":true,"created":"2025-11-16T00:14:00.355+02:00","modified":"2025-11-16T00:14:00.355+02:00","tags":["ai-agents","cursor",["editor   - ide   - code-assistant   - ai-native"]],"cssclasses":""}
 ---
 
 
