@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Dotnet-Architecture-Stack","title":"Architecture Stack","enableToc":true,"created":"2025-11-16T16:48:35.225+02:00","modified":"2025-11-16T17:06:23.010+02:00","tags":["dotnet","architecture"],"cssclasses":""}
+{"publish":true,"aliases":"Dotnet-Architecture-Stack","title":"Architecture Stack","enableToc":true,"created":"2025-11-16T16:48:35.225+02:00","modified":"2025-11-16T17:07:29.034+02:00","tags":["dotnet","architecture"],"cssclasses":""}
 ---
 
 
