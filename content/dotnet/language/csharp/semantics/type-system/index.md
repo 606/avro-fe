@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Csharp-Type-System-Core","title":"Type System Core","enableToc":true,"created":"2025-11-16T01:03:06.969+02:00","modified":"2025-11-16T15:31:33.373+02:00","tags":["dotnet","semantics","types"],"cssclasses":""}
+{"publish":true,"aliases":"Csharp-Type-System-Core","title":"Type System Core","enableToc":true,"created":"2025-11-16T01:03:06.969+02:00","modified":"2025-11-16T16:41:45.081+02:00","tags":["dotnet","semantics","types"],"cssclasses":""}
 ---
 
 
@@ -9,3 +9,6 @@
 
 ## Children
 - [[dotnet/language/csharp/semantics/type-system/generics/index\|Generics Hub]]
+- [[dotnet/language/csharp/semantics/type-system/nullable/index\|Nullable Flow]]
+- [[dotnet/language/csharp/semantics/type-system/records/index\|Record Forms]]
+- [[dotnet/language/csharp/semantics/type-system/pattern-shapes/index\|Pattern Shapes]]
