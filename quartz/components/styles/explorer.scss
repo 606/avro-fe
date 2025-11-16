@@ -212,6 +212,19 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
   color: var(--tertiary);
 }
 
+.explorer[data-flexible="true"] {
+  @media all and not ($mobile) {
+    max-height: none;
+    overflow-y: visible;
+
+    .explorer-content {
+      max-height: none;
+      overflow-y: visible;
+      overflow-x: hidden;
+    }
+  }
+}
+
 .explorer {
   @media all and ($mobile) {
     &.collapsed {

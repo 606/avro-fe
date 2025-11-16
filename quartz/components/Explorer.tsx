@@ -62,6 +62,8 @@ export default ((userOpts?: Partial<Options>) => {
 
   const Explorer: QuartzComponent = ({ cfg, displayClass }: QuartzComponentProps) => {
     const id = `explorer-${numExplorers++}`
+    const isFlexibleExplorer = cfg.flexibleExplorer ?? false
+    const flexibleAttr = isFlexibleExplorer ? "true" : "false"
 
     return (
       <div
@@ -69,6 +71,7 @@ export default ((userOpts?: Partial<Options>) => {
         data-behavior={opts.folderClickBehavior}
         data-collapsed={opts.folderDefaultState}
         data-savestate={opts.useSavedState}
+        data-flexible={flexibleAttr}
         data-data-fns={JSON.stringify({
           order: opts.order,
           sortFn: opts.sortFn.toString(),
@@ -120,7 +123,7 @@ export default ((userOpts?: Partial<Options>) => {
           </svg>
         </button>
         <div id={id} class="explorer-content" aria-expanded={false} role="group">
-          <OverflowList class="explorer-ul" />
+          <OverflowList class="explorer-ul" data-flexible={flexibleAttr} />
         </div>
         <template id="template-file">
           <li>

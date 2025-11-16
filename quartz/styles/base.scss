@@ -19,6 +19,14 @@ body {
   color: var(--darkgray);
 }
 
+body.sidebar-resizing {
+  cursor: col-resize;
+  user-select: none;
+}
+
+body.sidebar-resizing .sidebar-resize-handle::after {
+  border-left-color: var(--tertiary);
+}
 .text-highlight {
   background-color: var(--textHighlight);
   padding: 0 0.1rem;
@@ -181,15 +189,17 @@ a {
   }
 
   & > #quartz-body {
+    --left-sidebar-width: #{$sidePanelWidth};
+    --right-sidebar-width: #{$sidePanelWidth};
     display: grid;
-    grid-template-columns: #{map.get($desktopGrid, templateColumns)};
+    grid-template-columns: var(--left-sidebar-width) auto var(--right-sidebar-width);
     grid-template-rows: #{map.get($desktopGrid, templateRows)};
     column-gap: #{map.get($desktopGrid, columnGap)};
     row-gap: #{map.get($desktopGrid, rowGap)};
     grid-template-areas: #{map.get($desktopGrid, templateAreas)};
 
     @media all and ($tablet) {
-      grid-template-columns: #{map.get($tabletGrid, templateColumns)};
+      grid-template-columns: var(--left-sidebar-width) auto;
       grid-template-rows: #{map.get($tabletGrid, templateRows)};
       column-gap: #{map.get($tabletGrid, columnGap)};
       row-gap: #{map.get($tabletGrid, rowGap)};
@@ -228,6 +238,42 @@ a {
       z-index: 1;
       grid-area: grid-sidebar-left;
       flex-direction: column;
+      width: 100%;
+      transition: padding-right 200ms ease;
+      position: sticky;
+      & .sidebar-resize-handle {
+        display: none;
+      }
+      &:has(.explorer[data-flexible="true"]) {
+        overflow-x: visible;
+        & .sidebar-resize-handle {
+          display: block;
+          position: absolute;
+          top: 0;
+          right: -0.35rem;
+          width: 0.7rem;
+          height: 100%;
+          cursor: col-resize;
+          background: transparent;
+          border-radius: 999px;
+          transition: background-color 0.2s ease;
+          z-index: 2;
+        }
+      }
+      &:has(.explorer[data-flexible="true"]:not(.collapsed)) {
+        padding-right: clamp(0.25rem, 0.5vw, 0.75rem);
+      }
+      &:has(.explorer[data-flexible="true"]) .sidebar-resize-handle::after {
+        content: "";
+        position: absolute;
+        inset: 0.5rem 0;
+        border-left: 2px solid color-mix(in srgb, var(--gray) 40%, transparent);
+      }
+      &:has(.explorer[data-flexible="true"]) .sidebar-resize-handle:hover::after,
+      &:has(.explorer[data-flexible="true"]) .sidebar-resize-handle:active::after,
+      &:has(.explorer[data-flexible="true"]) .sidebar-resize-handle:focus-visible::after {
+        border-left-color: var(--tertiary);
+      }
       @media all and ($mobile) {
         gap: 0;
         align-items: center;
@@ -237,6 +283,9 @@ a {
         flex-direction: row;
         padding: 0;
         padding-top: 2rem;
+        & .sidebar-resize-handle {
+          display: none;
+        }
       }
     }
 
@@ -263,6 +312,16 @@ a {
         }
       }
     }
+    &:has(.explorer[data-flexible="true"]:not(.collapsed)) {
+      --left-sidebar-width: clamp(#{$sidePanelWidth}, 30vw, 540px);
+    }
+
+    @media all and ($tablet) {
+      &:has(.explorer[data-flexible="true"]:not(.collapsed)) {
+        --left-sidebar-width: clamp(#{$sidePanelWidth}, 45vw, 560px);
+      }
+    }
+
     & .page-header,
     & .page-footer {
       margin-top: 1rem;
@@ -297,6 +356,23 @@ a {
       @media all and ($mobile) {
         margin-right: 0;
         margin-left: 0;
+      }
+    }
+    &:has(.explorer[data-flexible="true"]:not(.collapsed)) .center {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    &:has(.explorer[data-flexible="true"]) .center {
+      box-sizing: border-box;
+      padding-left: clamp(0.55rem, 0.8vw, 1.25rem);
+      padding-right: clamp(0.35rem, 0.5vw, 0.9rem);
+    }
+
+    @media all and ($mobile) {
+      &:has(.explorer[data-flexible="true"]) .center {
+        padding-left: 0;
+        padding-right: 0;
       }
     }
     & footer {
@@ -579,13 +655,13 @@ video {
   flex: 2 1 auto;
 }
 
-div:has(> .overflow) {
+div:has(> .overflow:not([data-flexible="true"])) {
   max-height: 100%;
   overflow-y: hidden;
 }
 
-ul.overflow,
-ol.overflow {
+ul.overflow:not([data-flexible="true"]),
+ol.overflow:not([data-flexible="true"]) {
   max-height: 100%;
   overflow-y: auto;
   width: 100%;
@@ -603,6 +679,14 @@ ol.overflow {
   &.gradient-active {
     mask-image: linear-gradient(to bottom, black calc(100% - 50px), transparent 100%);
   }
+}
+
+ul.overflow[data-flexible="true"],
+ol.overflow[data-flexible="true"] {
+  max-height: none;
+  overflow: visible;
+  width: 100%;
+  margin-bottom: 0;
 }
 
 .transclude {
