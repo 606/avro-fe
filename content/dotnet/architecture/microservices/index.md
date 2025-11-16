@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Dotnet-Microservices","title":"Microservices","enableToc":true,"created":"2025-11-16T16:48:35.227+02:00","modified":"2025-11-16T17:03:21.508+02:00","tags":["dotnet","architecture","microservices"],"cssclasses":""}
+{"publish":true,"aliases":"Dotnet-Microservices","title":"Microservices","enableToc":true,"created":"2025-11-16T16:48:35.227+02:00","modified":"2025-11-16T17:03:44.122+02:00","tags":["dotnet","architecture","microservices"],"cssclasses":""}
 ---
 
 

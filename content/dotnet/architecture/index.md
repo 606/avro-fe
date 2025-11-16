@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Dotnet-Architecture-Stack","title":"Architecture Stack","enableToc":true,"created":"2025-11-16T16:48:35.225+02:00","modified":"2025-11-16T17:02:41.308+02:00","tags":["dotnet","architecture"],"cssclasses":""}
+{"publish":true,"aliases":"Dotnet-Architecture-Stack","title":"Architecture Stack","enableToc":true,"created":"2025-11-16T16:48:35.225+02:00","modified":"2025-11-16T17:04:44.253+02:00","tags":["dotnet","architecture"],"cssclasses":""}
 ---
 
 
@@ -13,3 +13,5 @@
 - [[dotnet/architecture/cloud-native/index\|Cloud-Native]]
 - [[dotnet/architecture/scalability/index\|Scalability]]
 - [[dotnet/architecture/reliability/index\|Reliability]]
+- [[dotnet/architecture/modern-web-apps/index\|Modern Web Apps]]
+- [[dotnet/architecture/devops/index\|DevOps]]

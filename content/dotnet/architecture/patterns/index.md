@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Dotnet-Architecture-Patterns","title":"Architecture Patterns","enableToc":true,"created":"2025-11-16T16:48:35.225+02:00","modified":"2025-11-16T17:02:56.615+02:00","tags":["dotnet","architecture","patterns"],"cssclasses":""}
+{"publish":true,"aliases":"Dotnet-Architecture-Patterns","title":"Architecture Patterns","enableToc":true,"created":"2025-11-16T16:48:35.225+02:00","modified":"2025-11-16T17:03:44.122+02:00","tags":["dotnet","architecture","patterns"],"cssclasses":""}
 ---
 
 
