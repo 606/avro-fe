@@ -1,3 +1,24 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// Reorder theme + reader icons whenever the explorer tree is visible
+.sidebar.left:has(.explorer:not(.collapsed)) {
+	.flex-component {
+		> div:has(.readermode) {
+			order: 1 !important;
+		}
+
+		> div:has(.darkmode) {
+			order: 2 !important;
+		}
+	}
+
+	.darkmode {
+		margin-left: 0;
+		margin-right: clamp(0.65rem, 1vw, 0.75rem);
+	}
+
+	.readermode {
+		margin-left: -0.3rem;
+		margin-right: clamp(0.1rem, 0.2vw, 0.15rem);
+	}
+}
