@@ -1,0 +1,9 @@
+---
+{"publish":true,"aliases":"Dotnet-Bias-Challenge-Arena-Control-Grid-Mitigation-Routine-Recovery-Playbook","title":"Bias Challenge Arena Control Grid Mitigation Routine Recovery Playbook","enableToc":true,"created":"2025-11-16T19:06:03.123+02:00","modified":"2025-11-16T19:07:48.025+02:00","tags":["dotnet","tools","ai","training-pipelines","training-recovery"],"cssclasses":""}
+---
+
+
+## Backlinks
+- [[dotnet/tools/ai-tooling/training-pipeline-orchestration/evaluation-security-gates/bias-challenge-arena/bias-challenge-arena-control-grid/bias-challenge-arena-control-grid-mitigation-routine/index\|Bias Challenge Arena Control Grid Mitigation Routine]]
+- [[dotnet/tools/ai-tooling/index\|AI Tooling]]
+- [[dotnet/tools/index\|Tools Stack]]
