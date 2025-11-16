@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Dotnet-Architecture-Stack","title":"Architecture Stack","enableToc":true,"created":"2025-11-16T16:48:35.225+02:00","modified":"2025-11-16T17:04:44.253+02:00","tags":["dotnet","architecture"],"cssclasses":""}
+{"publish":true,"aliases":"Dotnet-Architecture-Stack","title":"Architecture Stack","enableToc":true,"created":"2025-11-16T16:48:35.225+02:00","modified":"2025-11-16T17:06:23.010+02:00","tags":["dotnet","architecture"],"cssclasses":""}
 ---
 
 
@@ -15,3 +15,5 @@
 - [[dotnet/architecture/reliability/index\|Reliability]]
 - [[dotnet/architecture/modern-web-apps/index\|Modern Web Apps]]
 - [[dotnet/architecture/devops/index\|DevOps]]
+- [[dotnet/architecture/ddd/index\|Domain-Driven Design]]
+- [[dotnet/architecture/event-driven/index\|Event-Driven Architecture]]
