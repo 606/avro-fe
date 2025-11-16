@@ -1,0 +1,8 @@
+---
+{"publish":true,"aliases":"Csharp-Language-Projections","title":"Language Projections","enableToc":true,"created":"2025-11-16T16:46:13.626+02:00","modified":"2025-11-16T16:46:15.158+02:00","tags":["dotnet","language","interop","winrt"],"cssclasses":""}
+---
+
+
+## Backlinks
+- [[dotnet/language/csharp/interop/winrt/index\|WinRT Layer]]
+- [[dotnet/language/csharp/interop/index\|Interop Stack]]
