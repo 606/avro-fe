@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Language-Csharp","title":"C# Layer","enableToc":true,"created":"2025-11-16T01:00:23.859+02:00","modified":"2025-11-16T17:39:37.558+02:00","tags":["dotnet","language","csharp"],"cssclasses":""}
+{"publish":true,"aliases":"Language-Csharp","title":"C# Layer","enableToc":true,"created":"2025-11-16T01:00:23.859+02:00","modified":"2025-11-16T17:42:43.957+02:00","tags":["dotnet","language","csharp"],"cssclasses":""}
 ---
 
 
@@ -45,4 +45,24 @@
 - [[dotnet/language/csharp/diagnostics-logging/index\|Diagnostics and Logging]]
 - [[dotnet/language/csharp/configuration/index\|Configuration]]
 - [[dotnet/language/csharp/deployment-packaging/index\|Deployment and Packaging]]
+- [[dotnet/language/csharp/data-structures/index\|Data Structures]]
+- [[dotnet/language/csharp/algorithms/index\|Algorithms]]
+- [[dotnet/language/csharp/design-patterns/index\|Design Patterns]]
+- [[dotnet/language/csharp/testing/index\|Testing]]
+- [[dotnet/language/csharp/benchmarking/index\|Benchmarking]]
+- [[dotnet/language/csharp/profiling/index\|Profiling]]
+- [[dotnet/language/csharp/code-analysis/index\|Code Analysis]]
+- [[dotnet/language/csharp/documentation/index\|Documentation]]
+- [[dotnet/language/csharp/version-control/index\|Version Control]]
+- [[dotnet/language/csharp/build-systems/index\|Build Systems]]
+- [[dotnet/language/csharp/cloud-integration/index\|Cloud Integration]]
+- [[dotnet/language/csharp/microservices/index\|Microservices]]
+- [[dotnet/language/csharp/containerization/index\|Containerization]]
+- [[dotnet/language/csharp/devops/index\|DevOps]]
+- [[dotnet/language/csharp/ci-cd/index\|CI/CD]]
+- [[dotnet/language/csharp/monitoring/index\|Monitoring]]
+- [[dotnet/language/csharp/observability/index\|Observability]]
+- [[dotnet/language/csharp/distributed-systems/index\|Distributed Systems]]
+- [[dotnet/language/csharp/machine-learning/index\|Machine Learning]]
+- [[dotnet/language/csharp/game-development/index\|Game Development]]
 
