@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Localllm Local Llm Local-Llm-Tools","title":"Local Llm Tools","enableToc":true,"created":"2025-11-16T00:22:05.146+02:00","modified":"2025-11-16T15:31:33.354+02:00","tags":["ai-agents","localllm","free","open-source"],"cssclasses":""}
+{"publish":true,"aliases":"Localllm Local Llm Local-Llm-Tools","title":"Local Llm Tools","enableToc":true,"created":"2025-11-16T00:22:05.146+02:00","modified":"2025-11-16T15:58:13.681+02:00","tags":["ai-agents","localllm","free","open-source"],"cssclasses":""}
 ---
 
 
@@ -15,7 +15,7 @@ Free and high-quality local LLM tools and agents that run on your own hardware w
 - **Platform**: Windows, macOS, Linux
 - **License**: Open source
 
-### [[ai-agents/localllm/lm-studio/index\|LM Studio]]
+### [[ai-agents/localllm/lm-studio/index\|Lm Studio]]
 - **Description**: Desktop app for running local LLMs with a user-friendly interface
 - **Models**: Support for GGUF format models
 - **Platform**: Windows, macOS, Linux
@@ -27,25 +27,25 @@ Free and high-quality local LLM tools and agents that run on your own hardware w
 - **Platform**: Windows, macOS, Linux
 - **License**: Open source (AGPLv3)
 
-### [[ai-agents/localllm/gpt4all/index\|GPT4All]]
+### [[ai-agents/localllm/gpt4all/index\|Gpt4all]]
 - **Description**: Free-to-use, locally running, privacy-aware chatbot
 - **Models**: Multiple open-source models optimized for consumer hardware
 - **Platform**: Windows, macOS, Linux
 - **License**: Open source
 
-### [[ai-agents/localllm/localai/index\|LocalAI]]
+### [[ai-agents/localllm/localai/index\|Localai]]
 - **Description**: OpenAI-compatible API for local inference
 - **Models**: Support for various model formats (GGML, GGUF)
 - **Platform**: Cross-platform (via Docker)
 - **License**: Open source (MIT)
 
-### [[ai-agents/localllm/llama-cpp/index\|Llama.cpp]]
+### [[ai-agents/localllm/llama-cpp/index\|Llama.Cpp]]
 - **Description**: C/C++ implementation for running Llama models locally
 - **Models**: Llama family and compatible models
 - **Platform**: Cross-platform
 - **License**: Open source (MIT)
 
-### [[ai-agents/localllm/text-generation-webui/index\|Text Generation WebUI (oobabooga)]]
+### [[ai-agents/localllm/text-generation-webui/index\|Text Generation Webui (oobabooga)]]
 - **Description**: Gradio web UI for running LLMs
 - **Models**: Wide model support including GPTQ, AWQ, GGUF
 - **Platform**: Cross-platform (Python)

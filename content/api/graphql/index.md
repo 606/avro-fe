@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Graphql Graphql Graph-Ql","title":"Graphql","enableToc":true,"created":"2025-11-16T00:25:07.546+02:00","modified":"2025-11-16T15:31:33.383+02:00","tags":["api","graphql","query-language"],"cssclasses":""}
+{"publish":true,"aliases":"Graphql Graphql Graph-Ql","title":"Graphql","enableToc":true,"created":"2025-11-16T00:25:07.546+02:00","modified":"2025-11-16T15:51:15.022+02:00","tags":["api","graphql","query-language"],"cssclasses":""}
 ---
 
 
@@ -188,7 +188,7 @@ mutation {
 - [[api/graphql/subscriptions/index\|Subscriptions]] - Real-time GraphQL with WebSocket connections, pub/sub patterns, and live data updates
 
 ## Related
-- [[api/rest-apis/index\|REST APIs]]
-- [[api/api-design/index\|API Design]]
+- [[api/rest-apis/index\|Rest Apis]]
+- [[api/api-design/index\|Api Design]]
 - [[api/microservices/index\|Microservices]]
-- [[api/api-testing/index\|API Testing]]
+- [[api/api-testing/index\|Api Testing]]

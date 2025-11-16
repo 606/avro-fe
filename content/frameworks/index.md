@@ -1,6 +1,6 @@
 ---
-{"publish":true,"aliases":"Frameworks Frameworks-Moc","title":"Frameworks","created":"2025-11-16T00:05:21.427+02:00","modified":"2025-11-16T15:31:33.393+02:00","tags":["frameworks","moc"],"cssclasses":""}
+{"publish":true,"aliases":"Frameworks Frameworks-Moc","title":"Frameworks","created":"2025-11-16T00:05:21.427+02:00","modified":"2025-11-16T15:58:13.697+02:00","tags":["frameworks","moc"],"cssclasses":""}
 ---
 
 
-[[frameworks/frameworks-moc\|Frameworks MOC]]
+[[frameworks/frameworks-moc\|Frameworks Moc]]

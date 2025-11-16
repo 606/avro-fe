@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Api-Documentation Api Documentation Api-Docs","title":"Api Documentation","enableToc":true,"created":"2025-11-16T00:25:07.664+02:00","modified":"2025-11-16T15:31:33.383+02:00","tags":["api","documentation","openapi"],"cssclasses":""}
+{"publish":true,"aliases":"Api-Documentation Api Documentation Api-Docs","title":"Api Documentation","enableToc":true,"created":"2025-11-16T00:25:07.664+02:00","modified":"2025-11-16T15:51:15.022+02:00","tags":["api","documentation","openapi"],"cssclasses":""}
 ---
 
 
@@ -232,7 +232,7 @@ types:
 - User satisfaction scores
 
 ## Related
-- [[api/api-design/index\|API Design]]
-- [[api/api-testing/index\|API Testing]]
-- [[api/api-management/index\|API Management]]
-- [[../devops/index\|Documentation as Code]]
+- [[api/api-design/index\|Api Design]]
+- [[api/api-testing/index\|Api Testing]]
+- [[api/api-management/index\|Api Management]]
+- [[../devops/index\|Documentation As Code]]

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Http-Methods Http-Verbs Rest-Methods","title":"Http Methods Deep Dive","enableToc":true,"created":"2025-11-16T00:28:03.500+02:00","modified":"2025-11-16T15:31:33.381+02:00","tags":["api","rest","http","methods"],"cssclasses":""}
+{"publish":true,"aliases":"Http-Methods Http-Verbs Rest-Methods","title":"Http Methods Deep Dive","enableToc":true,"created":"2025-11-16T00:28:03.500+02:00","modified":"2025-11-16T15:51:15.019+02:00","tags":["api","rest","http","methods"],"cssclasses":""}
 ---
 
 
@@ -286,7 +286,7 @@ if (!allowedMethods.includes(req.method)) {
 ```
 
 ## Related
-- [[api/rest-apis/status-codes/index\|HTTP Status Codes]]
+- [[api/rest-apis/status-codes/index\|Http Status Codes]]
 - [[api/rest-apis/content-negotiation/index\|Content Negotiation]]
-- [[../api-security/index\|API Security]]
-- [[../rest-apis/index\|REST APIs]]
+- [[../api-security/index\|Api Security]]
+- [[../rest-apis/index\|Rest Apis]]

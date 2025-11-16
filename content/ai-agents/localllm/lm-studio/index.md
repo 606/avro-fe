@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Lm-Studio Lm Studio Lmstudio","title":"Lm Studio","enableToc":true,"created":"2025-11-16T00:23:05.449+02:00","modified":"2025-11-16T15:31:33.354+02:00","tags":["ai-agents","localllm","lm-studio","local-llm"],"cssclasses":""}
+{"publish":true,"aliases":"Lm-Studio Lm Studio Lmstudio","title":"Lm Studio","enableToc":true,"created":"2025-11-16T00:23:05.449+02:00","modified":"2025-11-16T15:51:14.992+02:00","tags":["ai-agents","localllm","lm-studio","local-llm"],"cssclasses":""}
 ---
 
 
@@ -34,5 +34,5 @@ Download from [lmstudio.ai](https://lmstudio.ai)
 - And many more GGUF models
 
 ## Related
-- [[ai-agents/localllm/index\|Local LLM Tools]]
-- [[ai-agents\|AI Agents]]
+- [[./localllm/index\|Local Llm Tools]]
+- [[./ai-agents\|Ai Agents]]

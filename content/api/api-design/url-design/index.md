@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Url-Design Api-Urls Rest-Urls","title":"Url Design Patterns","enableToc":true,"created":"2025-11-16T00:31:38.323+02:00","modified":"2025-11-16T15:31:33.382+02:00","tags":["api","design","urls","rest"],"cssclasses":""}
+{"publish":true,"aliases":"Url-Design Api-Urls Rest-Urls","title":"Url Design Patterns","enableToc":true,"created":"2025-11-16T00:31:38.323+02:00","modified":"2025-11-16T15:51:15.022+02:00","tags":["api","design","urls","rest"],"cssclasses":""}
 ---
 
 
@@ -642,7 +642,7 @@ GET /comments?task=5
 ```
 
 ## Related
-- [[api/api-design/index\|API Design]]
+- [[api/api-design/index\|Api Design]]
 - [[api/api-design/resource-modeling/index\|Resource Modeling]]
-- [[../versioning/index\|API Versioning]]
+- [[../versioning/index\|Api Versioning]]
 - [[../pagination/index\|Pagination Strategies]]

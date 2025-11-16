@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Graphql-Subscriptions Realtime-Graphql Websocket-Graphql","title":"Graphql Subscriptions","enableToc":true,"created":"2025-11-16T00:29:31.334+02:00","modified":"2025-11-16T15:31:33.383+02:00","tags":["api","graphql","subscriptions","realtime","websocket"],"cssclasses":""}
+{"publish":true,"aliases":"Graphql-Subscriptions Realtime-Graphql Websocket-Graphql","title":"Graphql Subscriptions","enableToc":true,"created":"2025-11-16T00:29:31.334+02:00","modified":"2025-11-16T15:51:15.023+02:00","tags":["api","graphql","subscriptions","realtime","websocket"],"cssclasses":""}
 ---
 
 
@@ -642,4 +642,4 @@ type Subscription {
 - [[api/graphql/schema-design/index\|Schema Design]]
 - [[api/graphql/resolvers/index\|Resolvers]]
 - [[api/graphql/federation/index\|Federation]]
-- [[../../realtime-apis/index\|Real-time APIs]]
+- [[../../realtime-apis/index\|Real-Time Apis]]

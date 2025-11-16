@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Resource-Modeling Api-Resources Domain-Modeling","title":"Resource Modeling","enableToc":true,"created":"2025-11-16T00:31:22.212+02:00","modified":"2025-11-16T15:31:33.382+02:00","tags":["api","design","resources","modeling"],"cssclasses":""}
+{"publish":true,"aliases":"Resource-Modeling Api-Resources Domain-Modeling","title":"Resource Modeling","enableToc":true,"created":"2025-11-16T00:31:22.212+02:00","modified":"2025-11-16T15:51:15.021+02:00","tags":["api","design","resources","modeling"],"cssclasses":""}
 ---
 
 
@@ -554,7 +554,7 @@ describe('User-Order Relationship', () => {
 ```
 
 ## Related
-- [[api/api-design/index\|API Design]]
-- [[api/api-design/url-design/index\|URL Design Patterns]]
-- [[../versioning/index\|API Versioning]]
+- [[api/api-design/index\|Api Design]]
+- [[api/api-design/url-design/index\|Url Design Patterns]]
+- [[../versioning/index\|Api Versioning]]
 - [[../pagination/index\|Pagination Strategies]]

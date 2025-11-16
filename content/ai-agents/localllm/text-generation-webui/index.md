@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Text-Generation-Webui Oobabooga Text-Gen-Webui","title":"Text Generation Webui","enableToc":true,"created":"2025-11-16T00:23:05.531+02:00","modified":"2025-11-16T15:31:33.355+02:00","tags":["ai-agents","localllm","text-generation-webui","oobabooga","local-llm"],"cssclasses":""}
+{"publish":true,"aliases":"Text-Generation-Webui Oobabooga Text-Gen-Webui","title":"Text Generation Webui","enableToc":true,"created":"2025-11-16T00:23:05.531+02:00","modified":"2025-11-16T15:51:14.993+02:00","tags":["ai-agents","localllm","text-generation-webui","oobabooga","local-llm"],"cssclasses":""}
 ---
 
 
@@ -51,5 +51,5 @@ pip install -r requirements.txt
 - **And many more**
 
 ## Related
-- [[ai-agents/localllm/index\|Local LLM Tools]]
-- [[ai-agents\|AI Agents]]
+- [[./localllm/index\|Local Llm Tools]]
+- [[./ai-agents\|Ai Agents]]

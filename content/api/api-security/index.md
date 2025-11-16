@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Api-Security Api Security Api-Protection","title":"Api Security","enableToc":true,"created":"2025-11-16T00:25:07.646+02:00","modified":"2025-11-16T15:31:33.384+02:00","tags":["api","security","authentication","authorization"],"cssclasses":""}
+{"publish":true,"aliases":"Api-Security Api Security Api-Protection","title":"Api Security","enableToc":true,"created":"2025-11-16T00:25:07.646+02:00","modified":"2025-11-16T15:51:15.025+02:00","tags":["api","security","authentication","authorization"],"cssclasses":""}
 ---
 
 
@@ -181,7 +181,7 @@ X-Rate-Limit-Reset: 1640995200
 - **Azure API Management**
 
 ## Related
-- [[api/api-design/index\|API Design]]
-- [[api/api-testing/index\|API Testing]]
-- [[api/api-management/index\|API Management]]
-- [[../devops/index\|DevSecOps]]
+- [[api/api-design/index\|Api Design]]
+- [[api/api-testing/index\|Api Testing]]
+- [[api/api-management/index\|Api Management]]
+- [[../devops/index\|Devsecops]]

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Gpt4all Gpt4all","title":"Gpt4all","enableToc":true,"created":"2025-11-16T00:23:05.462+02:00","modified":"2025-11-16T15:31:33.355+02:00","tags":["ai-agents","localllm","gpt4all","local-llm"],"cssclasses":""}
+{"publish":true,"aliases":"Gpt4all Gpt4all","title":"Gpt4all","enableToc":true,"created":"2025-11-16T00:23:05.462+02:00","modified":"2025-11-16T15:51:14.993+02:00","tags":["ai-agents","localllm","gpt4all","local-llm"],"cssclasses":""}
 ---
 
 
@@ -34,5 +34,5 @@ Download from [gpt4all.io](https://gpt4all.io)
 - And other optimized chat models
 
 ## Related
-- [[ai-agents/localllm/index\|Local LLM Tools]]
-- [[ai-agents\|AI Agents]]
+- [[./localllm/index\|Local Llm Tools]]
+- [[./ai-agents\|Ai Agents]]

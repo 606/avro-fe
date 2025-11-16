@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Api-Frameworks Api-Tools Api-Development-Tools","title":"Api Frameworks & Tools","enableToc":true,"created":"2025-11-16T00:25:07.726+02:00","modified":"2025-11-16T15:31:33.384+02:00","tags":["api","frameworks","tools","development"],"cssclasses":""}
+{"publish":true,"aliases":"Api-Frameworks Api-Tools Api-Development-Tools","title":"Api Frameworks & Tools","enableToc":true,"created":"2025-11-16T00:25:07.726+02:00","modified":"2025-11-16T15:51:15.024+02:00","tags":["api","frameworks","tools","development"],"cssclasses":""}
 ---
 
 
@@ -404,7 +404,7 @@ const validateUser = (req, res, next) => {
 ```
 
 ## Related
-- [[api/api-design/index\|API Design]]
-- [[api/api-testing/index\|API Testing]]
-- [[api/api-documentation/index\|API Documentation]]
-- [[../dotnet/index\|ASP.NET Core Development]]
+- [[api/api-design/index\|Api Design]]
+- [[api/api-testing/index\|Api Testing]]
+- [[api/api-documentation/index\|Api Documentation]]
+- [[../dotnet/index\|Asp.Net Core Development]]

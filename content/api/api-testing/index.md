@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Api-Testing Api Testing Api-Test","title":"Api Testing","enableToc":true,"created":"2025-11-16T00:25:07.657+02:00","modified":"2025-11-16T15:31:33.380+02:00","tags":["api","testing","quality-assurance"],"cssclasses":""}
+{"publish":true,"aliases":"Api-Testing Api Testing Api-Test","title":"Api Testing","enableToc":true,"created":"2025-11-16T00:25:07.657+02:00","modified":"2025-11-16T15:51:15.019+02:00","tags":["api","testing","quality-assurance"],"cssclasses":""}
 ---
 
 
@@ -234,7 +234,7 @@ describe('User API', () => {
 - Document test scenarios
 
 ## Related
-- [[api/api-design/index\|API Design]]
-- [[api/api-security/index\|API Security]]
+- [[api/api-design/index\|Api Design]]
+- [[api/api-security/index\|Api Security]]
 - [[../testing/index\|Testing Strategies]]
-- [[../devops/index\|CI/CD Pipelines]]
+- [[../devops/index\|Ci/Cd Pipelines]]

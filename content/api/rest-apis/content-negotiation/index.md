@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Content-Negotiation Media-Types Accept-Headers","title":"Content Negotiation","enableToc":true,"created":"2025-11-16T00:28:03.519+02:00","modified":"2025-11-16T15:31:33.381+02:00","tags":["api","rest","content-negotiation","http"],"cssclasses":""}
+{"publish":true,"aliases":"Content-Negotiation Media-Types Accept-Headers","title":"Content Negotiation","enableToc":true,"created":"2025-11-16T00:28:03.519+02:00","modified":"2025-11-16T15:51:15.020+02:00","tags":["api","rest","content-negotiation","http"],"cssclasses":""}
 ---
 
 
@@ -354,7 +354,7 @@ Accept-Encoding: gzip; q=1.0, deflate; q=0.8
 - **Client Compatibility**: Test with various clients
 
 ## Related
-- [[api/rest-apis/http-methods/index\|HTTP Methods]]
-- [[api/rest-apis/status-codes/index\|HTTP Status Codes]]
-- [[../api-design/index\|API Design]]
-- [[../api-documentation/index\|API Documentation]]
+- [[api/rest-apis/http-methods/index\|Http Methods]]
+- [[api/rest-apis/status-codes/index\|Http Status Codes]]
+- [[../api-design/index\|Api Design]]
+- [[../api-documentation/index\|Api Documentation]]

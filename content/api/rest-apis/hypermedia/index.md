@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Hypermedia Hateoas Hypermedia-Apis","title":"Hypermedia Apis","enableToc":true,"created":"2025-11-16T00:28:03.524+02:00","modified":"2025-11-16T15:31:33.382+02:00","tags":["api","rest","hypermedia","hateoas"],"cssclasses":""}
+{"publish":true,"aliases":"Hypermedia Hateoas Hypermedia-Apis","title":"Hypermedia Apis","enableToc":true,"created":"2025-11-16T00:28:03.524+02:00","modified":"2025-11-16T15:51:15.021+02:00","tags":["api","rest","hypermedia","hateoas"],"cssclasses":""}
 ---
 
 
@@ -423,7 +423,7 @@ GET /users?status=active&role=admin
 - **SirenJS**: JavaScript Siren client
 
 ## Related
-- [[../rest-apis/index\|REST APIs]]
-- [[../api-design/index\|API Design]]
-- [[../graphql/index\|GraphQL]]
-- [[../api-documentation/index\|API Documentation]]
+- [[../rest-apis/index\|Rest Apis]]
+- [[../api-design/index\|Api Design]]
+- [[../graphql/index\|Graphql]]
+- [[../api-documentation/index\|Api Documentation]]

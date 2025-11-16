@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Api-Management Api Management Api-Gateway","title":"Api Management","enableToc":true,"created":"2025-11-16T00:25:07.671+02:00","modified":"2025-11-16T15:31:33.382+02:00","tags":["api","management","gateway","monitoring"],"cssclasses":""}
+{"publish":true,"aliases":"Api-Management Api Management Api-Gateway","title":"Api Management","enableToc":true,"created":"2025-11-16T00:25:07.671+02:00","modified":"2025-11-16T15:51:15.021+02:00","tags":["api","management","gateway","monitoring"],"cssclasses":""}
 ---
 
 
@@ -182,7 +182,7 @@ if (tokens > 0) {
 - **Efficient Protocols**: Use efficient serialization
 
 ## Related
-- [[api/api-security/index\|API Security]]
-- [[api/api-testing/index\|API Testing]]
+- [[api/api-security/index\|Api Security]]
+- [[api/api-testing/index\|Api Testing]]
 - [[api/microservices/index\|Microservices]]
-- [[../devops/index\|DevOps & Deployment]]
+- [[../devops/index\|Devops & Deployment]]

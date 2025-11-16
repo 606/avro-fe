@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Http-Status-Codes Status-Codes Http-Codes","title":"Http Status Codes","enableToc":true,"created":"2025-11-16T00:28:03.512+02:00","modified":"2025-11-16T15:31:33.381+02:00","tags":["api","rest","http","status-codes"],"cssclasses":""}
+{"publish":true,"aliases":"Http-Status-Codes Status-Codes Http-Codes","title":"Http Status Codes","enableToc":true,"created":"2025-11-16T00:28:03.512+02:00","modified":"2025-11-16T15:51:15.020+02:00","tags":["api","rest","http","status-codes"],"cssclasses":""}
 ---
 
 
@@ -465,7 +465,7 @@ GET /api/users
 - Monitor 4xx rates for API issues
 
 ## Related
-- [[api/rest-apis/http-methods/index\|HTTP Methods]]
-- [[../api-design/index\|API Design]]
-- [[../api-testing/index\|API Testing]]
-- [[../rest-apis/index\|REST APIs]]
+- [[api/rest-apis/http-methods/index\|Http Methods]]
+- [[../api-design/index\|Api Design]]
+- [[../api-testing/index\|Api Testing]]
+- [[../rest-apis/index\|Rest Apis]]

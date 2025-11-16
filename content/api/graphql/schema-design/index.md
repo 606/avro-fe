@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Graphql-Schema Schema-Design Graphql-Types","title":"Graphql Schema Design","enableToc":true,"created":"2025-11-16T00:29:31.267+02:00","modified":"2025-11-16T15:31:33.383+02:00","tags":["api","graphql","schema","design"],"cssclasses":""}
+{"publish":true,"aliases":"Graphql-Schema Schema-Design Graphql-Types","title":"Graphql Schema Design","enableToc":true,"created":"2025-11-16T00:29:31.267+02:00","modified":"2025-11-16T15:51:15.023+02:00","tags":["api","graphql","schema","design"],"cssclasses":""}
 ---
 
 
@@ -485,7 +485,7 @@ type User {
 - **Caching**: Implement appropriate caching strategies
 
 ## Related
-- [[api/graphql/resolvers/index\|GraphQL Resolvers]]
+- [[api/graphql/resolvers/index\|Graphql Resolvers]]
 - [[api/graphql/federation/index\|Schema Federation]]
-- [[api/graphql/subscriptions/index\|GraphQL Subscriptions]]
-- [[../api-design/index\|API Design]]
+- [[api/graphql/subscriptions/index\|Graphql Subscriptions]]
+- [[../api-design/index\|Api Design]]

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Aws Aws-.Net Aws-Net","title":"Aws For .Net Development","enableToc":true,"created":"2025-11-16T00:05:21.416+02:00","modified":"2025-11-16T15:31:33.385+02:00","tags":["aws","dotnet","cloud"],"cssclasses":""}
+{"publish":true,"aliases":"Aws Aws-.Net Aws-Net","title":"Aws For .Net Development","enableToc":true,"created":"2025-11-16T00:05:21.416+02:00","modified":"2025-11-16T15:58:13.693+02:00","tags":["aws","dotnet","cloud"],"cssclasses":""}
 ---
 
 
@@ -31,10 +31,10 @@
 ## .NET Specific
 
 ### AWS SDK for .NET
-- [[aws/sdk/index\|AWS SDK for .NET]] - SDK usage, configuration, best practices
+- [[aws/sdk/index\|Aws Sdk For .Net]] - SDK usage, configuration, best practices
 
 ### .NET on AWS
-- [[aws/dotnet/index\|.NET on AWS]] - Lambda, ECS, EKS, Elastic Beanstalk
+- [[aws/dotnet/index\|.Net On Aws]] - Lambda, ECS, EKS, Elastic Beanstalk
 
 ### Serverless
 - [[aws/serverless/index\|Serverless]] - Lambda functions, API Gateway, DynamoDB
@@ -43,6 +43,6 @@
 - [[aws/containers/index\|Containers]] - ECS, EKS, Fargate for .NET applications
 
 ## Related
-- [[dotnet/index\|.NET Development]]
-- [[devops/index\|DevOps]]
+- [[dotnet/index\|.Net Development]]
+- [[devops/index\|Devops]]
 - [[../cloud/index\|Cloud Computing]]

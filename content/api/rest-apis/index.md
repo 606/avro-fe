@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Rest-Apis Rest Apis Restful-Apis","title":"Rest Apis","enableToc":true,"created":"2025-11-16T00:25:07.529+02:00","modified":"2025-11-16T15:31:33.381+02:00","tags":["api","rest","http"],"cssclasses":""}
+{"publish":true,"aliases":"Rest-Apis Rest Apis Restful-Apis","title":"Rest Apis","enableToc":true,"created":"2025-11-16T00:25:07.529+02:00","modified":"2025-11-16T15:51:15.019+02:00","tags":["api","rest","http"],"cssclasses":""}
 ---
 
 
@@ -127,20 +127,20 @@ Client cannot tell if it's connected directly to server or through intermediarie
 
 ## Detailed Topics
 
-### [[api/rest-apis/http-methods/index\|HTTP Methods Deep Dive]]
+### [[api/rest-apis/http-methods/index\|Http Methods Deep Dive]]
 Comprehensive guide to HTTP methods, their semantics, safety, idempotency, and implementation patterns.
 
-### [[api/rest-apis/status-codes/index\|HTTP Status Codes]]
+### [[api/rest-apis/status-codes/index\|Http Status Codes]]
 Complete reference of HTTP status codes with detailed explanations, use cases, and best practices.
 
 ### [[api/rest-apis/content-negotiation/index\|Content Negotiation]]
 How APIs negotiate data formats, media types, and client preferences using HTTP headers.
 
-### [[api/rest-apis/hypermedia/index\|Hypermedia APIs (HATEOAS)]]
+### [[api/rest-apis/hypermedia/index\|Hypermedia Apis (HATEOAS)]]
 Building self-descriptive APIs with links, hypermedia formats, and dynamic client navigation.
 
 ## Related
-- [[api/api-design/index\|API Design Principles]]
-- [[api/api-security/index\|API Security]]
-- [[api/api-testing/index\|API Testing]]
-- [[api/api-documentation/index\|API Documentation]]
+- [[api/api-design/index\|Api Design Principles]]
+- [[api/api-security/index\|Api Security]]
+- [[api/api-testing/index\|Api Testing]]
+- [[api/api-documentation/index\|Api Documentation]]

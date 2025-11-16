@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Localai Localai","title":"Localai","enableToc":true,"created":"2025-11-16T00:23:05.466+02:00","modified":"2025-11-16T15:31:33.354+02:00","tags":["ai-agents","localllm","localai","local-llm"],"cssclasses":""}
+{"publish":true,"aliases":"Localai Localai","title":"Localai","enableToc":true,"created":"2025-11-16T00:23:05.466+02:00","modified":"2025-11-16T15:51:14.992+02:00","tags":["ai-agents","localllm","localai","local-llm"],"cssclasses":""}
 ---
 
 
@@ -44,5 +44,5 @@ make build
 - And more
 
 ## Related
-- [[ai-agents/localllm/index\|Local LLM Tools]]
-- [[ai-agents\|AI Agents]]
+- [[./localllm/index\|Local Llm Tools]]
+- [[./ai-agents\|Ai Agents]]

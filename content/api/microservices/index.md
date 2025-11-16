@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Microservices Microservices-Apis Microservice-Architecture","title":"Microservices Apis","enableToc":true,"created":"2025-11-16T00:25:07.712+02:00","modified":"2025-11-16T15:31:33.380+02:00","tags":["api","microservices","architecture","distributed-systems"],"cssclasses":""}
+{"publish":true,"aliases":"Microservices Microservices-Apis Microservice-Architecture","title":"Microservices Apis","enableToc":true,"created":"2025-11-16T00:25:07.712+02:00","modified":"2025-11-16T15:51:15.018+02:00","tags":["api","microservices","architecture","distributed-systems"],"cssclasses":""}
 ---
 
 
@@ -241,7 +241,7 @@ axiosRetry(axios, {
 - **GraphQL**: Flexible API layer
 
 ## Related
-- [[api/api-design/index\|API Design]]
-- [[api/api-management/index\|API Management]]
-- [[api/api-testing/index\|API Testing]]
-- [[../devops/index\|DevOps & Deployment]]
+- [[api/api-design/index\|Api Design]]
+- [[api/api-management/index\|Api Management]]
+- [[api/api-testing/index\|Api Testing]]
+- [[../devops/index\|Devops & Deployment]]

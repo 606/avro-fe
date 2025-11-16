@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Api-Design Api Design Api-Architecture","title":"Api Design","enableToc":true,"created":"2025-11-16T00:25:07.638+02:00","modified":"2025-11-16T15:31:33.382+02:00","tags":["api","design","architecture"],"cssclasses":""}
+{"publish":true,"aliases":"Api-Design Api Design Api-Architecture","title":"Api Design","enableToc":true,"created":"2025-11-16T00:25:07.638+02:00","modified":"2025-11-16T15:51:15.021+02:00","tags":["api","design","architecture"],"cssclasses":""}
 ---
 
 
@@ -214,10 +214,10 @@ X-RateLimit-Reset: 1640995200
 - [[api/api-design/resource-modeling/index\|Resource Modeling]] - Designing effective API resources with entities, relationships, and representations
 
 ### URL Design Patterns
-- [[api/api-design/url-design/index\|URL Design Patterns]] - Creating intuitive, consistent, and maintainable API URLs
+- [[api/api-design/url-design/index\|Url Design Patterns]] - Creating intuitive, consistent, and maintainable API URLs
 
 ## Related
-- [[api/rest-apis/index\|REST APIs]]
-- [[api/graphql/index\|GraphQL]]
-- [[api/api-documentation/index\|API Documentation]]
-- [[api/api-security/index\|API Security]]
+- [[api/rest-apis/index\|Rest Apis]]
+- [[api/graphql/index\|Graphql]]
+- [[api/api-documentation/index\|Api Documentation]]
+- [[api/api-security/index\|Api Security]]

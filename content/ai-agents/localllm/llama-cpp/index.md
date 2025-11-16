@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Llama-Cpp Llama.Cpp Llama.Cpp","title":"Llama.Cpp","enableToc":true,"created":"2025-11-16T00:23:05.470+02:00","modified":"2025-11-16T15:31:33.355+02:00","tags":["ai-agents","localllm","llama-cpp","local-llm"],"cssclasses":""}
+{"publish":true,"aliases":"Llama-Cpp Llama.Cpp Llama.Cpp","title":"Llama.Cpp","enableToc":true,"created":"2025-11-16T00:23:05.470+02:00","modified":"2025-11-16T15:51:14.993+02:00","tags":["ai-agents","localllm","llama-cpp","local-llm"],"cssclasses":""}
 ---
 
 
@@ -51,5 +51,5 @@ make
 - Other Llama-compatible models in GGUF format
 
 ## Related
-- [[ai-agents/localllm/index\|Local LLM Tools]]
-- [[ai-agents\|AI Agents]]
+- [[./localllm/index\|Local Llm Tools]]
+- [[./ai-agents\|Ai Agents]]

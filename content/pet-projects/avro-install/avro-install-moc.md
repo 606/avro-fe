@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Avro-Install","title":"Avro-Install","created":"2025-10-21","modified":"2025-11-16T15:31:33.358+02:00","tags":["type/project","status/open","priority/medium","avro","pet-projects"],"cssclasses":""}
+{"publish":true,"aliases":"Avro-Install","title":"Avro-Install","created":"2025-10-21","modified":"2025-11-16T15:58:13.683+02:00","tags":["type/project","status/open","priority/medium","avro","pet-projects"],"cssclasses":""}
 ---
 
 
@@ -14,7 +14,7 @@
 - [ ] Task 3
 
 ## 🔗 Related Links
-- [[index\|avro.cc]]
+- [[index\|Avro.Cc]]
 - [[pet-projects/index\|Pet Projects]]
 
 ## 📝 Notes
