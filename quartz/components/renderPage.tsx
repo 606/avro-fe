@@ -214,11 +214,13 @@ export function renderPage(
   const Header = HeaderConstructor()
   const Body = BodyConstructor()
 
+  const showSidebarResizeHandle = cfg.flexibleExplorer ?? false
   const LeftComponent = (
     <div class="left sidebar">
       {left.map((BodyComponent) => (
         <BodyComponent {...componentData} />
       ))}
+      {showSidebarResizeHandle ? <div class="sidebar-resize-handle" aria-hidden="true"></div> : null}
     </div>
   )
 

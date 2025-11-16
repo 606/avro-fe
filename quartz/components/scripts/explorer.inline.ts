@@ -19,6 +19,11 @@ type FolderState = {
   collapsed: boolean
 }
 
+const FLEXIBLE_EXPLORER_WIDTH_KEY = "flexExplorerWidth"
+const MIN_FLEXIBLE_EXPLORER_WIDTH = 200
+const MAX_FLEXIBLE_EXPLORER_WIDTH = 560
+const DEFAULT_FLEXIBLE_EXPLORER_WIDTH = 360
+
 let currentExplorerState: Array<FolderState>
 function toggleExplorer(this: HTMLElement) {
   const nearestExplorer = this.closest(".explorer") as HTMLElement
@@ -265,9 +270,108 @@ document.addEventListener("prenav", async () => {
   sessionStorage.setItem("explorerScrollTop", explorer.scrollTop.toString())
 })
 
+const clampFlexibleWidth = (value: number) =>
+  Math.min(Math.max(value, MIN_FLEXIBLE_EXPLORER_WIDTH), MAX_FLEXIBLE_EXPLORER_WIDTH)
+
+function setupResizableSidebar() {
+  const quartzBody = document.getElementById("quartz-body") as HTMLElement | null
+  if (!quartzBody) return
+
+  const flexibleExplorer = quartzBody.querySelector(
+    ".explorer[data-flexible=\"true\"]",
+  ) as HTMLElement | null
+  if (!flexibleExplorer) return
+
+  const savedWidth = localStorage.getItem(FLEXIBLE_EXPLORER_WIDTH_KEY)
+  let appliedInitialWidth = false
+  if (savedWidth) {
+    const numeric = parseInt(savedWidth, 10)
+    if (!Number.isNaN(numeric)) {
+      const clamped = clampFlexibleWidth(numeric)
+      quartzBody.style.setProperty("--left-sidebar-width", `${clamped}px`)
+      appliedInitialWidth = true
+    }
+  }
+  if (!appliedInitialWidth) {
+    const defaultWidth = clampFlexibleWidth(DEFAULT_FLEXIBLE_EXPLORER_WIDTH)
+    quartzBody.style.setProperty("--left-sidebar-width", `${defaultWidth}px`)
+    localStorage.setItem(FLEXIBLE_EXPLORER_WIDTH_KEY, defaultWidth.toString())
+  }
+
+  const handle = quartzBody.querySelector(".sidebar-resize-handle") as HTMLElement | null
+  const sidebar = handle?.closest(".sidebar.left") as HTMLElement | null
+  if (!handle || !sidebar) return
+
+  let isDragging = false
+
+  const applyWidth = (rawWidth: number) => {
+    const nextWidth = clampFlexibleWidth(rawWidth)
+    quartzBody.style.setProperty("--left-sidebar-width", `${nextWidth}px`)
+    localStorage.setItem(FLEXIBLE_EXPLORER_WIDTH_KEY, nextWidth.toString())
+  }
+
+  const startDrag = (event: MouseEvent | TouchEvent) => {
+    event.preventDefault()
+    isDragging = true
+    document.body.classList.add("sidebar-resizing")
+  }
+
+  const stopDrag = () => {
+    if (!isDragging) return
+    isDragging = false
+    document.body.classList.remove("sidebar-resizing")
+  }
+
+  const handlePointerMove = (clientX: number) => {
+    const sidebarRect = sidebar.getBoundingClientRect()
+    const rawWidth = clientX - sidebarRect.left
+    applyWidth(rawWidth)
+  }
+
+  const onMouseMove = (event: MouseEvent) => {
+    if (!isDragging) return
+    event.preventDefault()
+    handlePointerMove(event.clientX)
+  }
+
+  const onTouchMove = (event: TouchEvent) => {
+    if (!isDragging || event.touches.length === 0) return
+    handlePointerMove(event.touches[0].clientX)
+  }
+
+  const handleMouseDown = (event: MouseEvent) => {
+    startDrag(event)
+  }
+
+  const handleTouchStart = (event: TouchEvent) => {
+    startDrag(event)
+  }
+
+  handle.addEventListener("mousedown", handleMouseDown)
+  window.addCleanup(() => handle.removeEventListener("mousedown", handleMouseDown))
+
+  handle.addEventListener("touchstart", handleTouchStart, { passive: false })
+  window.addCleanup(() => handle.removeEventListener("touchstart", handleTouchStart))
+
+  window.addEventListener("mousemove", onMouseMove)
+  window.addCleanup(() => window.removeEventListener("mousemove", onMouseMove))
+
+  window.addEventListener("touchmove", onTouchMove, { passive: false })
+  window.addCleanup(() => window.removeEventListener("touchmove", onTouchMove))
+
+  window.addEventListener("mouseup", stopDrag)
+  window.addCleanup(() => window.removeEventListener("mouseup", stopDrag))
+
+  window.addEventListener("touchend", stopDrag)
+  window.addCleanup(() => window.removeEventListener("touchend", stopDrag))
+
+  window.addCleanup(() => document.body.classList.remove("sidebar-resizing"))
+}
+
 document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
   const currentSlug = e.detail.url
   await setupExplorer(currentSlug)
+  setupResizableSidebar()
 
   // if mobile hamburger is visible, collapse by default
   for (const explorer of document.getElementsByClassName("explorer")) {
@@ -284,6 +388,10 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
 
     mobileExplorer.classList.remove("hide-until-loaded")
   }
+})
+
+document.addEventListener("DOMContentLoaded", () => {
+  setupResizableSidebar()
 })
 
 window.addEventListener("resize", function () {

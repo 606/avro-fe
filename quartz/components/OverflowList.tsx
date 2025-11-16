@@ -4,10 +4,13 @@ const OverflowList = ({
   children,
   ...props
 }: JSX.HTMLAttributes<HTMLUListElement> & { id: string }) => {
+  const dataFlexible = (props as Record<string, unknown>)["data-flexible"]
+  const isFlexible = dataFlexible === "" || dataFlexible === true || dataFlexible === "true"
+
   return (
     <ul {...props} class={[props.class, "overflow"].filter(Boolean).join(" ")} id={props.id}>
       {children}
-      <li class="overflow-end" />
+      {!isFlexible && <li class="overflow-end" />}
     </ul>
   )
 }
@@ -22,6 +25,9 @@ export default () => {
     ),
     overflowListAfterDOMLoaded: `
 document.addEventListener("nav", (e) => {
+  const ul = document.getElementById("${id}")
+  if (!ul || ul.dataset.flexible === "true") return
+
   const observer = new IntersectionObserver((entries) => {
     for (const entry of entries) {
       const parentUl = entry.target.parentElement
@@ -33,9 +39,6 @@ document.addEventListener("nav", (e) => {
       }
     }
   })
-
-  const ul = document.getElementById("${id}")
-  if (!ul) return
 
   const end = ul.querySelector(".overflow-end")
   if (!end) return
