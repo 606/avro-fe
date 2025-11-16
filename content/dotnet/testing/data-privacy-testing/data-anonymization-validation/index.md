@@ -1,0 +1,7 @@
+---
+{"publish":true,"aliases":"Dotnet-Data-Anonymization-Validation","title":"Data Anonymization Validation","enableToc":true,"created":"2025-11-16T18:15:29.629+02:00","modified":"2025-11-16T18:15:29.630+02:00","tags":["dotnet","testing","privacy","anonymization"],"cssclasses":""}
+---
+
+
+## Backlinks
+- [[dotnet/testing/data-privacy-testing/index\|Data Privacy Testing]]

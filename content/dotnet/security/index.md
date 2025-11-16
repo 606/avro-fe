@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Dotnet-Security-Stack","title":"Security Stack","enableToc":true,"created":"2025-11-16T16:57:38.310+02:00","modified":"2025-11-16T18:01:45.987+02:00","tags":["dotnet","security"],"cssclasses":""}
+{"publish":true,"aliases":"Dotnet-Security-Stack","title":"Security Stack","enableToc":true,"created":"2025-11-16T16:57:38.310+02:00","modified":"2025-11-16T18:04:33.936+02:00","tags":["dotnet","security"],"cssclasses":""}
 ---
 
 
@@ -32,3 +32,13 @@
 - [[dotnet/security/vulnerability-management/index\|Vulnerability Management]]
 - [[dotnet/security/security-operations/index\|Security Operations]]
 - [[dotnet/security/threat-intelligence/index\|Threat Intelligence]]
+- [[dotnet/security/iot-security/index\|IoT Security]]
+- [[dotnet/security/ai-security/index\|AI Security]]
+- [[dotnet/security/data-loss-prevention/index\|Data Loss Prevention]]
+- [[dotnet/security/security-architecture/index\|Security Architecture]]
+- [[dotnet/security/identity-governance/index\|Identity Governance]]
+- [[dotnet/security/database-security/index\|Database Security]]
+- [[dotnet/security/email-security/index\|Email Security]]
+- [[dotnet/security/digital-forensics/index\|Digital Forensics]]
+- [[dotnet/security/edge-security/index\|Edge Security]]
+- [[dotnet/security/resilience-engineering/index\|Resilience Engineering]]
