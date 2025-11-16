@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"Dotnet-DevOps","title":"DevOps","enableToc":true,"created":"2025-11-16T17:04:38.499+02:00","modified":"2025-11-16T17:14:15.154+02:00","tags":["dotnet","architecture","devops"],"cssclasses":""}
+{"publish":true,"aliases":"Dotnet-DevOps","title":"DevOps","enableToc":true,"created":"2025-11-16T17:04:38.499+02:00","modified":"2025-11-16T17:16:02.154+02:00","tags":["dotnet","architecture","devops"],"cssclasses":""}
 ---
 
 
