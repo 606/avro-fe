@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"api-management API Management api-gateway","title":"API Management","enableToc":true,"created":"2025-11-16T00:25:07.671+02:00","modified":"2025-11-16T00:26:46.885+02:00","tags":["api","management","gateway","monitoring"],"cssclasses":""}
+{"publish":true,"aliases":"Api-Management Api Management Api-Gateway","title":"Api Management","enableToc":true,"created":"2025-11-16T00:25:07.671+02:00","modified":"2025-11-16T15:31:33.382+02:00","tags":["api","management","gateway","monitoring"],"cssclasses":""}
 ---
 
 

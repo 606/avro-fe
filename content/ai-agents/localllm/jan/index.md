@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"jan Jan","title":"Jan","enableToc":true,"created":"2025-11-16T00:23:05.458+02:00","modified":"2025-11-16T00:26:46.885+02:00","tags":["ai-agents","localllm","jan","local-llm"],"cssclasses":""}
+{"publish":true,"aliases":"Jan Jan","title":"Jan","enableToc":true,"created":"2025-11-16T00:23:05.458+02:00","modified":"2025-11-16T15:31:33.354+02:00","tags":["ai-agents","localllm","jan","local-llm"],"cssclasses":""}
 ---
 
 

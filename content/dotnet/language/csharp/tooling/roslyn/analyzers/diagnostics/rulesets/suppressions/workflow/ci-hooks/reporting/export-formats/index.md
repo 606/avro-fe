@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"csharp-export-formats","title":"Export Formats","enableToc":true,"created":"2025-11-16T01:12:36.469+02:00","modified":"2025-11-16T01:13:00.748+02:00","tags":["dotnet","tooling","reporting"],"cssclasses":""}
+{"publish":true,"aliases":"Csharp-Export-Formats","title":"Export Formats","enableToc":true,"created":"2025-11-16T01:12:36.469+02:00","modified":"2025-11-16T15:31:33.368+02:00","tags":["dotnet","tooling","reporting"],"cssclasses":""}
 ---
 
 

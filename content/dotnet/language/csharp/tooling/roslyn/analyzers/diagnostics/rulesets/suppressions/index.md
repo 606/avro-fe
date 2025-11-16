@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"csharp-suppression-matrix","title":"Suppression Matrix","enableToc":true,"created":"2025-11-16T01:12:09.771+02:00","modified":"2025-11-16T01:13:00.733+02:00","tags":["dotnet","tooling","diagnostics"],"cssclasses":""}
+{"publish":true,"aliases":"Csharp-Suppression-Matrix","title":"Suppression Matrix","enableToc":true,"created":"2025-11-16T01:12:09.771+02:00","modified":"2025-11-16T15:31:33.367+02:00","tags":["dotnet","tooling","diagnostics"],"cssclasses":""}
 ---
 
 

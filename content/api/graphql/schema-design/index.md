@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"graphql-schema schema-design graphql-types","title":"GraphQL Schema Design","enableToc":true,"created":"2025-11-16T00:29:31.267+02:00","modified":"2025-11-16T00:32:07.681+02:00","tags":["api","graphql","schema","design"],"cssclasses":""}
+{"publish":true,"aliases":"Graphql-Schema Schema-Design Graphql-Types","title":"Graphql Schema Design","enableToc":true,"created":"2025-11-16T00:29:31.267+02:00","modified":"2025-11-16T15:31:33.383+02:00","tags":["api","graphql","schema","design"],"cssclasses":""}
 ---
 
 

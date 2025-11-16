@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"csharp-awaitable-pipeline","title":"Awaitable Pipeline","enableToc":true,"created":"2025-11-16T01:06:38.353+02:00","modified":"2025-11-16T01:07:54.356+02:00","tags":["dotnet","concurrency","awaitable"],"cssclasses":""}
+{"publish":true,"aliases":"Csharp-Awaitable-Pipeline","title":"Awaitable Pipeline","enableToc":true,"created":"2025-11-16T01:06:38.353+02:00","modified":"2025-11-16T15:31:33.376+02:00","tags":["dotnet","concurrency","awaitable"],"cssclasses":""}
 ---
 
 

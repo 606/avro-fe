@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"databases db dbs","title":"databases","created":"2025-11-16T00:05:21.420+02:00","modified":"2025-11-16T00:05:21.420+02:00","tags":["databases","moc"],"cssclasses":""}
+{"publish":true,"aliases":"Databases Db Dbs","title":"Databases","created":"2025-11-16T00:05:21.420+02:00","modified":"2025-11-16T15:31:33.347+02:00","tags":["databases","moc"],"cssclasses":""}
 ---
 
 

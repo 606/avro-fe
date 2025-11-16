@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"csharp-analyzer-hooks","title":"Analyzer Hooks","enableToc":true,"created":"2025-11-16T01:09:47.485+02:00","modified":"2025-11-16T01:10:42.466+02:00","tags":["dotnet","language","patterns"],"cssclasses":""}
+{"publish":true,"aliases":"Csharp-Analyzer-Hooks","title":"Analyzer Hooks","enableToc":true,"created":"2025-11-16T01:09:47.485+02:00","modified":"2025-11-16T15:31:33.370+02:00","tags":["dotnet","language","patterns"],"cssclasses":""}
 ---
 
 

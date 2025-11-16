@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"hypermedia hateoas hypermedia-apis","title":"Hypermedia APIs","enableToc":true,"created":"2025-11-16T00:28:03.524+02:00","modified":"2025-11-16T00:32:07.675+02:00","tags":["api","rest","hypermedia","hateoas"],"cssclasses":""}
+{"publish":true,"aliases":"Hypermedia Hateoas Hypermedia-Apis","title":"Hypermedia Apis","enableToc":true,"created":"2025-11-16T00:28:03.524+02:00","modified":"2025-11-16T15:31:33.382+02:00","tags":["api","rest","hypermedia","hateoas"],"cssclasses":""}
 ---
 
 

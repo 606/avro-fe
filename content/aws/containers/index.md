@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"containers aws-containers","title":"Containers","enableToc":true,"created":"2025-11-16T00:35:41.034+02:00","modified":"2025-11-16T00:49:11.127+02:00","tags":["aws","containers","dotnet"],"cssclasses":""}
+{"publish":true,"aliases":"Containers Aws-Containers","title":"Containers","enableToc":true,"created":"2025-11-16T00:35:41.034+02:00","modified":"2025-11-16T15:31:33.391+02:00","tags":["aws","containers","dotnet"],"cssclasses":""}
 ---
 
 

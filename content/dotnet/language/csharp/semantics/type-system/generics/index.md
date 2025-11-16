@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"csharp-generics-hub","title":"Generics Hub","enableToc":true,"created":"2025-11-16T01:03:13.336+02:00","modified":"2025-11-16T01:07:54.341+02:00","tags":["dotnet","semantics","generics"],"cssclasses":""}
+{"publish":true,"aliases":"Csharp-Generics-Hub","title":"Generics Hub","enableToc":true,"created":"2025-11-16T01:03:13.336+02:00","modified":"2025-11-16T15:31:33.373+02:00","tags":["dotnet","semantics","generics"],"cssclasses":""}
 ---
 
 

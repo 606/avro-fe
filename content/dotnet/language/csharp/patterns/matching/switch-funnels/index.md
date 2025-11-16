@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"csharp-switch-funnels","title":"Switch Funnels","enableToc":true,"created":"2025-11-16T01:09:00.596+02:00","modified":"2025-11-16T01:10:42.461+02:00","tags":["dotnet","language","patterns"],"cssclasses":""}
+{"publish":true,"aliases":"Csharp-Switch-Funnels","title":"Switch Funnels","enableToc":true,"created":"2025-11-16T01:09:00.596+02:00","modified":"2025-11-16T15:31:33.369+02:00","tags":["dotnet","language","patterns"],"cssclasses":""}
 ---
 
 

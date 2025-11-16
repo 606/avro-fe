@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"csharp-relational-bridge","title":"Relational Bridge","enableToc":true,"created":"2025-11-16T01:09:18.061+02:00","modified":"2025-11-16T01:10:42.465+02:00","tags":["dotnet","language","patterns"],"cssclasses":""}
+{"publish":true,"aliases":"Csharp-Relational-Bridge","title":"Relational Bridge","enableToc":true,"created":"2025-11-16T01:09:18.061+02:00","modified":"2025-11-16T15:31:33.369+02:00","tags":["dotnet","language","patterns"],"cssclasses":""}
 ---
 
 

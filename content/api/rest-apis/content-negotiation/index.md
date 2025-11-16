@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"content-negotiation media-types accept-headers","title":"Content Negotiation","enableToc":true,"created":"2025-11-16T00:28:03.519+02:00","modified":"2025-11-16T00:32:07.670+02:00","tags":["api","rest","content-negotiation","http"],"cssclasses":""}
+{"publish":true,"aliases":"Content-Negotiation Media-Types Accept-Headers","title":"Content Negotiation","enableToc":true,"created":"2025-11-16T00:28:03.519+02:00","modified":"2025-11-16T15:31:33.381+02:00","tags":["api","rest","content-negotiation","http"],"cssclasses":""}
 ---
 
 

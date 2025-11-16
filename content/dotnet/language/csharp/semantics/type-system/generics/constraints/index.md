@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"csharp-constraints-space","title":"Constraints Space","enableToc":true,"created":"2025-11-16T01:03:21.646+02:00","modified":"2025-11-16T01:07:54.346+02:00","tags":["dotnet","semantics","generics"],"cssclasses":""}
+{"publish":true,"aliases":"Csharp-Constraints-Space","title":"Constraints Space","enableToc":true,"created":"2025-11-16T01:03:21.646+02:00","modified":"2025-11-16T15:31:33.373+02:00","tags":["dotnet","semantics","generics"],"cssclasses":""}
 ---
 
 

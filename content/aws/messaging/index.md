@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"messaging aws-messaging","title":"Messaging & Integration","enableToc":true,"created":"2025-11-16T00:35:37.035+02:00","modified":"2025-11-16T00:49:11.104+02:00","tags":["aws","messaging","dotnet"],"cssclasses":""}
+{"publish":true,"aliases":"Messaging Aws-Messaging","title":"Messaging & Integration","enableToc":true,"created":"2025-11-16T00:35:37.035+02:00","modified":"2025-11-16T15:31:33.392+02:00","tags":["aws","messaging","dotnet"],"cssclasses":""}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"api-documentation API Documentation api-docs","title":"API Documentation","enableToc":true,"created":"2025-11-16T00:25:07.664+02:00","modified":"2025-11-16T00:26:46.885+02:00","tags":["api","documentation","openapi"],"cssclasses":""}
+{"publish":true,"aliases":"Api-Documentation Api Documentation Api-Docs","title":"Api Documentation","enableToc":true,"created":"2025-11-16T00:25:07.664+02:00","modified":"2025-11-16T15:31:33.383+02:00","tags":["api","documentation","openapi"],"cssclasses":""}
 ---
 
 

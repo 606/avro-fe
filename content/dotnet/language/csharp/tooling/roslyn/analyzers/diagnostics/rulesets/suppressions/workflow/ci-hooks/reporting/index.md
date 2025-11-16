@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"csharp-reporting-bridge","title":"Reporting Bridge","enableToc":true,"created":"2025-11-16T01:12:28.441+02:00","modified":"2025-11-16T01:13:00.743+02:00","tags":["dotnet","tooling","reporting"],"cssclasses":""}
+{"publish":true,"aliases":"Csharp-Reporting-Bridge","title":"Reporting Bridge","enableToc":true,"created":"2025-11-16T01:12:28.441+02:00","modified":"2025-11-16T15:31:33.368+02:00","tags":["dotnet","tooling","reporting"],"cssclasses":""}
 ---
 
 

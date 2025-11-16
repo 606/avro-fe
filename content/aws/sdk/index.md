@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"sdk aws-sdk","title":"AWS SDK for .NET","enableToc":true,"created":"2025-11-16T00:35:38.017+02:00","modified":"2025-11-16T00:49:11.104+02:00","tags":["aws","sdk","dotnet"],"cssclasses":""}
+{"publish":true,"aliases":"Sdk Aws-Sdk","title":"Aws Sdk For .Net","enableToc":true,"created":"2025-11-16T00:35:38.017+02:00","modified":"2025-11-16T15:31:33.390+02:00","tags":["aws","sdk","dotnet"],"cssclasses":""}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"avro-kb","title":"avro-kb","created":"2025-10-21","modified":"2025-11-16T00:06:53.681+02:00","tags":["type/project","status/open","priority/medium","avro","pet-projects"],"cssclasses":""}
+{"publish":true,"aliases":"Avro-Kb","title":"Avro-Kb","created":"2025-10-21","modified":"2025-11-16T15:31:33.360+02:00","tags":["type/project","status/open","priority/medium","avro","pet-projects"],"cssclasses":""}
 ---
 
 

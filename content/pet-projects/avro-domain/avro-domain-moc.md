@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"avro-domain","title":"avro-domain","created":"2025-10-21","modified":"2025-11-16T00:06:53.633+02:00","tags":["type/project","status/open","priority/medium","avro","pet-projects"],"cssclasses":""}
+{"publish":true,"aliases":"Avro-Domain","title":"Avro-Domain","created":"2025-10-21","modified":"2025-11-16T15:31:33.361+02:00","tags":["type/project","status/open","priority/medium","avro","pet-projects"],"cssclasses":""}
 ---
 
 

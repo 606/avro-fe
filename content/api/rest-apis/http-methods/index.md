@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"http-methods http-verbs rest-methods","title":"HTTP Methods Deep Dive","enableToc":true,"created":"2025-11-16T00:28:03.500+02:00","modified":"2025-11-16T00:32:07.663+02:00","tags":["api","rest","http","methods"],"cssclasses":""}
+{"publish":true,"aliases":"Http-Methods Http-Verbs Rest-Methods","title":"Http Methods Deep Dive","enableToc":true,"created":"2025-11-16T00:28:03.500+02:00","modified":"2025-11-16T15:31:33.381+02:00","tags":["api","rest","http","methods"],"cssclasses":""}
 ---
 
 

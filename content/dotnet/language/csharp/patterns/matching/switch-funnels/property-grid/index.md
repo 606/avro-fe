@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"csharp-property-grid","title":"Property Grid","enableToc":true,"created":"2025-11-16T01:09:06.259+02:00","modified":"2025-11-16T01:10:42.465+02:00","tags":["dotnet","language","patterns"],"cssclasses":""}
+{"publish":true,"aliases":"Csharp-Property-Grid","title":"Property Grid","enableToc":true,"created":"2025-11-16T01:09:06.259+02:00","modified":"2025-11-16T15:31:33.369+02:00","tags":["dotnet","language","patterns"],"cssclasses":""}
 ---
 
 

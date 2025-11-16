@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"ai-agents","title":"AI Agents","enableToc":true,"created":"2025-11-16T00:05:21.412+02:00","modified":"2025-11-16T00:29:34.336+02:00","tags":["ai-agents"],"cssclasses":""}
+{"publish":true,"aliases":"Ai-Agents","title":"Ai Agents","enableToc":true,"created":"2025-11-16T00:05:21.412+02:00","modified":"2025-11-16T15:31:33.353+02:00","tags":["ai-agents"],"cssclasses":""}
 ---
 
 

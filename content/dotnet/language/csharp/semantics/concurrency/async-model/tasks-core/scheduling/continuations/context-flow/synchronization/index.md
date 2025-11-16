@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"csharp-synchronization-bridges","title":"Synchronization Bridges","enableToc":true,"created":"2025-11-16T01:06:24.894+02:00","modified":"2025-11-16T01:07:54.355+02:00","tags":["dotnet","concurrency","synchronization"],"cssclasses":""}
+{"publish":true,"aliases":"Csharp-Synchronization-Bridges","title":"Synchronization Bridges","enableToc":true,"created":"2025-11-16T01:06:24.894+02:00","modified":"2025-11-16T15:31:33.376+02:00","tags":["dotnet","concurrency","synchronization"],"cssclasses":""}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"csharp-ci-hooks","title":"CI Hooks","enableToc":true,"created":"2025-11-16T01:12:22.121+02:00","modified":"2025-11-16T01:13:00.738+02:00","tags":["dotnet","tooling","ci"],"cssclasses":""}
+{"publish":true,"aliases":"Csharp-Ci-Hooks","title":"Ci Hooks","enableToc":true,"created":"2025-11-16T01:12:22.121+02:00","modified":"2025-11-16T15:31:33.368+02:00","tags":["dotnet","tooling","ci"],"cssclasses":""}
 ---
 
 

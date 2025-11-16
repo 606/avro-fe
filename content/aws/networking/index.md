@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"networking aws-networking","title":"Networking","enableToc":true,"created":"2025-11-16T00:35:32.605+02:00","modified":"2025-11-16T00:49:11.090+02:00","tags":["aws","networking","dotnet"],"cssclasses":""}
+{"publish":true,"aliases":"Networking Aws-Networking","title":"Networking","enableToc":true,"created":"2025-11-16T00:35:32.605+02:00","modified":"2025-11-16T15:31:33.386+02:00","tags":["aws","networking","dotnet"],"cssclasses":""}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"monitoring aws-monitoring","title":"Monitoring & Analytics","enableToc":true,"created":"2025-11-16T00:35:35.814+02:00","modified":"2025-11-16T00:49:11.104+02:00","tags":["aws","monitoring","dotnet"],"cssclasses":""}
+{"publish":true,"aliases":"Monitoring Aws-Monitoring","title":"Monitoring & Analytics","enableToc":true,"created":"2025-11-16T00:35:35.814+02:00","modified":"2025-11-16T15:31:33.391+02:00","tags":["aws","monitoring","dotnet"],"cssclasses":""}
 ---
 
 

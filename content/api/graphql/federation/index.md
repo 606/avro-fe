@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"graphql-federation schema-federation apollo-federation","title":"GraphQL Schema Federation","enableToc":true,"created":"2025-11-16T00:29:31.324+02:00","modified":"2025-11-16T00:32:07.691+02:00","tags":["api","graphql","federation","microservices"],"cssclasses":""}
+{"publish":true,"aliases":"Graphql-Federation Schema-Federation Apollo-Federation","title":"Graphql Schema Federation","enableToc":true,"created":"2025-11-16T00:29:31.324+02:00","modified":"2025-11-16T15:31:33.384+02:00","tags":["api","graphql","federation","microservices"],"cssclasses":""}
 ---
 
 

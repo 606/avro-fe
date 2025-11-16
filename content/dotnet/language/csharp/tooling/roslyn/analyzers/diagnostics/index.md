@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"csharp-diagnostic-flow","title":"Diagnostic Flow","enableToc":true,"created":"2025-11-16T01:11:56.829+02:00","modified":"2025-11-16T01:13:00.728+02:00","tags":["dotnet","tooling","diagnostics"],"cssclasses":""}
+{"publish":true,"aliases":"Csharp-Diagnostic-Flow","title":"Diagnostic Flow","enableToc":true,"created":"2025-11-16T01:11:56.829+02:00","modified":"2025-11-16T15:31:33.367+02:00","tags":["dotnet","tooling","diagnostics"],"cssclasses":""}
 ---
 
 

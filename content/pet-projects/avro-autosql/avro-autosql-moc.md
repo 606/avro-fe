@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"avro-autosql","title":"avro-autosql","created":"2025-10-21","modified":"2025-11-16T00:06:53.613+02:00","tags":["type/project","status/open","priority/medium","avro","pet-projects"],"cssclasses":""}
+{"publish":true,"aliases":"Avro-Autosql","title":"Avro-Autosql","created":"2025-10-21","modified":"2025-11-16T15:31:33.360+02:00","tags":["type/project","status/open","priority/medium","avro","pet-projects"],"cssclasses":""}
 ---
 
 

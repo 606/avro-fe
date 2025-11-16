@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"software-design design sd","title":"software-design","created":"2025-11-16T00:05:21.438+02:00","modified":"2025-11-16T00:05:21.438+02:00","tags":["software-design","moc"],"cssclasses":""}
+{"publish":true,"aliases":"Software-Design Design Sd","title":"Software-Design","created":"2025-11-16T00:05:21.438+02:00","modified":"2025-11-16T15:31:33.353+02:00","tags":["software-design","moc"],"cssclasses":""}
 ---
 
 

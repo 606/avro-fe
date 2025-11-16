@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"csharp-tasks-core","title":"Tasks Core","enableToc":true,"created":"2025-11-16T01:05:49.636+02:00","modified":"2025-11-16T01:07:54.355+02:00","tags":["dotnet","language","concurrency"],"cssclasses":""}
+{"publish":true,"aliases":"Csharp-Tasks-Core","title":"Tasks Core","enableToc":true,"created":"2025-11-16T01:05:49.636+02:00","modified":"2025-11-16T15:31:33.375+02:00","tags":["dotnet","language","concurrency"],"cssclasses":""}
 ---
 
 

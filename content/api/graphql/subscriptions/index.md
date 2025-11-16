@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"graphql-subscriptions realtime-graphql websocket-graphql","title":"GraphQL Subscriptions","enableToc":true,"created":"2025-11-16T00:29:31.334+02:00","modified":"2025-11-16T00:32:07.696+02:00","tags":["api","graphql","subscriptions","realtime","websocket"],"cssclasses":""}
+{"publish":true,"aliases":"Graphql-Subscriptions Realtime-Graphql Websocket-Graphql","title":"Graphql Subscriptions","enableToc":true,"created":"2025-11-16T00:29:31.334+02:00","modified":"2025-11-16T15:31:33.383+02:00","tags":["api","graphql","subscriptions","realtime","websocket"],"cssclasses":""}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"avro-install","title":"avro-install","created":"2025-10-21","modified":"2025-11-16T00:06:53.665+02:00","tags":["type/project","status/open","priority/medium","avro","pet-projects"],"cssclasses":""}
+{"publish":true,"aliases":"Avro-Install","title":"Avro-Install","created":"2025-10-21","modified":"2025-11-16T15:31:33.358+02:00","tags":["type/project","status/open","priority/medium","avro","pet-projects"],"cssclasses":""}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"aws aws-dotnet aws-net","title":"AWS for .NET Development","enableToc":true,"created":"2025-11-16T00:05:21.416+02:00","modified":"2025-11-16T00:49:11.090+02:00","tags":["aws","dotnet","cloud"],"cssclasses":""}
+{"publish":true,"aliases":"Aws Aws-.Net Aws-Net","title":"Aws For .Net Development","enableToc":true,"created":"2025-11-16T00:05:21.416+02:00","modified":"2025-11-16T15:31:33.385+02:00","tags":["aws","dotnet","cloud"],"cssclasses":""}
 ---
 
 

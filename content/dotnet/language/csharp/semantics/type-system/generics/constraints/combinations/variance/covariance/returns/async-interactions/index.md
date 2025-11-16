@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"csharp-async-interactions","title":"Async Interactions","enableToc":true,"created":"2025-11-16T01:03:52.068+02:00","modified":"2025-11-16T01:07:54.355+02:00","tags":["dotnet","semantics","async"],"cssclasses":""}
+{"publish":true,"aliases":"Csharp-Async-Interactions","title":"Async Interactions","enableToc":true,"created":"2025-11-16T01:03:52.068+02:00","modified":"2025-11-16T15:31:33.374+02:00","tags":["dotnet","semantics","async"],"cssclasses":""}
 ---
 
 

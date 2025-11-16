@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"dotnet-tool-commands","title":"Tool Commands","enableToc":true,"created":"2025-11-16T00:52:10.474+02:00","modified":"2025-11-16T00:58:28.583+02:00","tags":["dotnet","diagnostics","tools"],"cssclasses":""}
+{"publish":true,"aliases":".Net-Tool-Commands","title":"Tool Commands","enableToc":true,"created":"2025-11-16T00:52:10.474+02:00","modified":"2025-11-16T15:31:33.365+02:00","tags":["dotnet","diagnostics","tools"],"cssclasses":""}
 ---
 
 

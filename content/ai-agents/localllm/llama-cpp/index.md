@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"llama-cpp llama.cpp Llama.cpp","title":"Llama.cpp","enableToc":true,"created":"2025-11-16T00:23:05.470+02:00","modified":"2025-11-16T00:26:46.885+02:00","tags":["ai-agents","localllm","llama-cpp","local-llm"],"cssclasses":""}
+{"publish":true,"aliases":"Llama-Cpp Llama.Cpp Llama.Cpp","title":"Llama.Cpp","enableToc":true,"created":"2025-11-16T00:23:05.470+02:00","modified":"2025-11-16T15:31:33.355+02:00","tags":["ai-agents","localllm","llama-cpp","local-llm"],"cssclasses":""}
 ---
 
 

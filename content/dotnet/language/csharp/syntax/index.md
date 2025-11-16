@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"csharp-syntax-focus","title":"Syntax Focus","enableToc":true,"created":"2025-11-16T01:00:29.491+02:00","modified":"2025-11-16T01:01:48.390+02:00","tags":["dotnet","language","syntax"],"cssclasses":""}
+{"publish":true,"aliases":"Csharp-Syntax-Focus","title":"Syntax Focus","enableToc":true,"created":"2025-11-16T01:00:29.491+02:00","modified":"2025-11-16T15:31:33.378+02:00","tags":["dotnet","language","syntax"],"cssclasses":""}
 ---
 
 

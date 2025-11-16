@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"lm-studio LM Studio lmstudio","title":"LM Studio","enableToc":true,"created":"2025-11-16T00:23:05.449+02:00","modified":"2025-11-16T00:26:46.885+02:00","tags":["ai-agents","localllm","lm-studio","local-llm"],"cssclasses":""}
+{"publish":true,"aliases":"Lm-Studio Lm Studio Lmstudio","title":"Lm Studio","enableToc":true,"created":"2025-11-16T00:23:05.449+02:00","modified":"2025-11-16T15:31:33.354+02:00","tags":["ai-agents","localllm","lm-studio","local-llm"],"cssclasses":""}
 ---
 
 

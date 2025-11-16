@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"microservices microservices-apis microservice-architecture","title":"Microservices APIs","enableToc":true,"created":"2025-11-16T00:25:07.712+02:00","modified":"2025-11-16T00:26:46.885+02:00","tags":["api","microservices","architecture","distributed-systems"],"cssclasses":""}
+{"publish":true,"aliases":"Microservices Microservices-Apis Microservice-Architecture","title":"Microservices Apis","enableToc":true,"created":"2025-11-16T00:25:07.712+02:00","modified":"2025-11-16T15:31:33.380+02:00","tags":["api","microservices","architecture","distributed-systems"],"cssclasses":""}
 ---
 
 

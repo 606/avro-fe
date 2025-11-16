@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"rest-apis REST APIs restful-apis","title":"REST APIs","enableToc":true,"created":"2025-11-16T00:25:07.529+02:00","modified":"2025-11-16T00:32:07.663+02:00","tags":["api","rest","http"],"cssclasses":""}
+{"publish":true,"aliases":"Rest-Apis Rest Apis Restful-Apis","title":"Rest Apis","enableToc":true,"created":"2025-11-16T00:25:07.529+02:00","modified":"2025-11-16T15:31:33.381+02:00","tags":["api","rest","http"],"cssclasses":""}
 ---
 
 

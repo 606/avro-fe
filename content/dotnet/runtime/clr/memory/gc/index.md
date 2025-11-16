@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"dotnet-gc-core","title":"GC Core","enableToc":true,"created":"2025-11-16T00:51:35.656+02:00","modified":"2025-11-16T00:58:28.539+02:00","tags":["dotnet","runtime","gc"],"cssclasses":""}
+{"publish":true,"aliases":".Net-Gc-Core","title":"Gc Core","enableToc":true,"created":"2025-11-16T00:51:35.656+02:00","modified":"2025-11-16T15:31:33.364+02:00","tags":["dotnet","runtime","gc"],"cssclasses":""}
 ---
 
 

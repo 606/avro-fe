@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"api-design API Design api-architecture","title":"API Design","enableToc":true,"created":"2025-11-16T00:25:07.638+02:00","modified":"2025-11-16T00:32:07.663+02:00","tags":["api","design","architecture"],"cssclasses":""}
+{"publish":true,"aliases":"Api-Design Api Design Api-Architecture","title":"Api Design","enableToc":true,"created":"2025-11-16T00:25:07.638+02:00","modified":"2025-11-16T15:31:33.382+02:00","tags":["api","design","architecture"],"cssclasses":""}
 ---
 
 

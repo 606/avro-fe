@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"graphql-resolvers resolvers field-resolution","title":"GraphQL Resolvers","enableToc":true,"created":"2025-11-16T00:29:31.320+02:00","modified":"2025-11-16T00:32:07.686+02:00","tags":["api","graphql","resolvers","backend"],"cssclasses":""}
+{"publish":true,"aliases":"Graphql-Resolvers Resolvers Field-Resolution","title":"Graphql Resolvers","enableToc":true,"created":"2025-11-16T00:29:31.320+02:00","modified":"2025-11-16T15:31:33.383+02:00","tags":["api","graphql","resolvers","backend"],"cssclasses":""}
 ---
 
 

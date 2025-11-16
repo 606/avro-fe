@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"csharp-positional-node","title":"Positional Node","enableToc":true,"created":"2025-11-16T01:09:11.817+02:00","modified":"2025-11-16T01:10:42.465+02:00","tags":["dotnet","language","patterns"],"cssclasses":""}
+{"publish":true,"aliases":"Csharp-Positional-Node","title":"Positional Node","enableToc":true,"created":"2025-11-16T01:09:11.817+02:00","modified":"2025-11-16T15:31:33.369+02:00","tags":["dotnet","language","patterns"],"cssclasses":""}
 ---
 
 

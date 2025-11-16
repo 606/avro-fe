@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"csharp-analyzer-space","title":"Analyzer Space","enableToc":true,"created":"2025-11-16T01:11:50.975+02:00","modified":"2025-11-16T01:13:00.716+02:00","tags":["dotnet","tooling","analyzers"],"cssclasses":""}
+{"publish":true,"aliases":"Csharp-Analyzer-Space","title":"Analyzer Space","enableToc":true,"created":"2025-11-16T01:11:50.975+02:00","modified":"2025-11-16T15:31:33.367+02:00","tags":["dotnet","tooling","analyzers"],"cssclasses":""}
 ---
 
 

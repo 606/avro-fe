@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"pet-projects pet-projects-moc","title":"pet-projects","created":"2025-11-16T00:05:21.431+02:00","modified":"2025-11-16T00:29:34.350+02:00","tags":["pet-projects","moc"],"cssclasses":""}
+{"publish":true,"aliases":"Pet-Projects Pet-Projects-Moc","title":"Pet-Projects","created":"2025-11-16T00:05:21.431+02:00","modified":"2025-11-16T15:31:33.357+02:00","tags":["pet-projects","moc"],"cssclasses":""}
 ---
 
 

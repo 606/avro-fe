@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"devops devops-moc","title":"devops","created":"2025-11-16T00:05:21.421+02:00","modified":"2025-11-16T00:05:21.421+02:00","tags":["devops","moc"],"cssclasses":""}
+{"publish":true,"aliases":"Devops Devops-Moc","title":"Devops","created":"2025-11-16T00:05:21.421+02:00","modified":"2025-11-16T15:31:33.352+02:00","tags":["devops","moc"],"cssclasses":""}
 ---
 
 

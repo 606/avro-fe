@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"url-design api-urls rest-urls","title":"URL Design Patterns","enableToc":true,"created":"2025-11-16T00:31:38.323+02:00","modified":"2025-11-16T00:32:07.701+02:00","tags":["api","design","urls","rest"],"cssclasses":""}
+{"publish":true,"aliases":"Url-Design Api-Urls Rest-Urls","title":"Url Design Patterns","enableToc":true,"created":"2025-11-16T00:31:38.323+02:00","modified":"2025-11-16T15:31:33.382+02:00","tags":["api","design","urls","rest"],"cssclasses":""}
 ---
 
 

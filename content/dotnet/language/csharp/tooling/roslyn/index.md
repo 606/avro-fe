@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"csharp-roslyn-core","title":"Roslyn Core","enableToc":true,"created":"2025-11-16T01:11:43.948+02:00","modified":"2025-11-16T01:13:00.716+02:00","tags":["dotnet","language","tooling"],"cssclasses":""}
+{"publish":true,"aliases":"Csharp-Roslyn-Core","title":"Roslyn Core","enableToc":true,"created":"2025-11-16T01:11:43.948+02:00","modified":"2025-11-16T15:31:33.366+02:00","tags":["dotnet","language","tooling"],"cssclasses":""}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"csharp-lambda-focus","title":"Lambda Focus","enableToc":true,"created":"2025-11-16T01:00:39.815+02:00","modified":"2025-11-16T01:01:48.390+02:00","tags":["dotnet","language","lambdas"],"cssclasses":""}
+{"publish":true,"aliases":"Csharp-Lambda-Focus","title":"Lambda Focus","enableToc":true,"created":"2025-11-16T01:00:39.815+02:00","modified":"2025-11-16T15:31:33.379+02:00","tags":["dotnet","language","lambdas"],"cssclasses":""}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"csharp-span-guards","title":"Span Guards","enableToc":true,"created":"2025-11-16T01:09:23.799+02:00","modified":"2025-11-16T01:10:42.465+02:00","tags":["dotnet","language","patterns"],"cssclasses":""}
+{"publish":true,"aliases":"Csharp-Span-Guards","title":"Span Guards","enableToc":true,"created":"2025-11-16T01:09:23.799+02:00","modified":"2025-11-16T15:31:33.370+02:00","tags":["dotnet","language","patterns"],"cssclasses":""}
 ---
 
 

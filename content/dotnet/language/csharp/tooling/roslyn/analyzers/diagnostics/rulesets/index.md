@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"csharp-ruleset-layer","title":"Ruleset Layer","enableToc":true,"created":"2025-11-16T01:12:02.885+02:00","modified":"2025-11-16T01:13:00.728+02:00","tags":["dotnet","tooling","diagnostics"],"cssclasses":""}
+{"publish":true,"aliases":"Csharp-Ruleset-Layer","title":"Ruleset Layer","enableToc":true,"created":"2025-11-16T01:12:02.885+02:00","modified":"2025-11-16T15:31:33.367+02:00","tags":["dotnet","tooling","diagnostics"],"cssclasses":""}
 ---
 
 

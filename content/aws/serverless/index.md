@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"serverless aws-serverless","title":"Serverless","enableToc":true,"created":"2025-11-16T00:35:39.965+02:00","modified":"2025-11-16T00:49:11.119+02:00","tags":["aws","serverless","dotnet"],"cssclasses":""}
+{"publish":true,"aliases":"Serverless Aws-Serverless","title":"Serverless","enableToc":true,"created":"2025-11-16T00:35:39.965+02:00","modified":"2025-11-16T15:31:33.386+02:00","tags":["aws","serverless","dotnet"],"cssclasses":""}
 ---
 
 

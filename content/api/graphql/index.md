@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"graphql GraphQL graph-ql","title":"GraphQL","enableToc":true,"created":"2025-11-16T00:25:07.546+02:00","modified":"2025-11-16T00:32:07.663+02:00","tags":["api","graphql","query-language"],"cssclasses":""}
+{"publish":true,"aliases":"Graphql Graphql Graph-Ql","title":"Graphql","enableToc":true,"created":"2025-11-16T00:25:07.546+02:00","modified":"2025-11-16T15:31:33.383+02:00","tags":["api","graphql","query-language"],"cssclasses":""}
 ---
 
 

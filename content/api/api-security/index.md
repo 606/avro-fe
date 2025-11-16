@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"api-security API Security api-protection","title":"API Security","enableToc":true,"created":"2025-11-16T00:25:07.646+02:00","modified":"2025-11-16T00:26:46.885+02:00","tags":["api","security","authentication","authorization"],"cssclasses":""}
+{"publish":true,"aliases":"Api-Security Api Security Api-Protection","title":"Api Security","enableToc":true,"created":"2025-11-16T00:25:07.646+02:00","modified":"2025-11-16T15:31:33.384+02:00","tags":["api","security","authentication","authorization"],"cssclasses":""}
 ---
 
 

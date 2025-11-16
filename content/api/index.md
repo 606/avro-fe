@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"api API api-development","title":"API Development","enableToc":true,"created":"2025-11-16T00:05:21.414+02:00","modified":"2025-11-16T00:29:34.342+02:00","tags":["api","development"],"cssclasses":""}
+{"publish":true,"aliases":"Api Api Api-Development","title":"Api Development","enableToc":true,"created":"2025-11-16T00:05:21.414+02:00","modified":"2025-11-16T15:31:33.380+02:00","tags":["api","development"],"cssclasses":""}
 ---
 
 

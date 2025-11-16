@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"storage aws-storage","title":"Storage Services","enableToc":true,"created":"2025-11-16T00:35:31.474+02:00","modified":"2025-11-16T00:49:11.090+02:00","tags":["aws","storage","dotnet"],"cssclasses":""}
+{"publish":true,"aliases":"Storage Aws-Storage","title":"Storage Services","enableToc":true,"created":"2025-11-16T00:35:31.474+02:00","modified":"2025-11-16T15:31:33.387+02:00","tags":["aws","storage","dotnet"],"cssclasses":""}
 ---
 
 

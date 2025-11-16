@@ -1,5 +1,5 @@
 ---
-{"publish":true,"aliases":"csharp-capture-semantics","title":"Capture Semantics","enableToc":true,"created":"2025-11-16T01:00:45.659+02:00","modified":"2025-11-16T01:01:48.397+02:00","tags":["dotnet","language","lambdas"],"cssclasses":""}
+{"publish":true,"aliases":"Csharp-Capture-Semantics","title":"Capture Semantics","enableToc":true,"created":"2025-11-16T01:00:45.659+02:00","modified":"2025-11-16T15:31:33.379+02:00","tags":["dotnet","language","lambdas"],"cssclasses":""}
 ---
 
 
