@@ -1,0 +1,7 @@
+---
+{"publish":true,"aliases":"Dotnet-Resource-Allocation","title":"Resource Allocation","enableToc":true,"created":"2025-11-16T17:15:10.925+02:00","modified":"2025-11-16T17:15:13.276+02:00","tags":["dotnet","architecture","scalability","capacity","allocation"],"cssclasses":""}
+---
+
+
+## Backlinks
+- [[dotnet/architecture/scalability/capacity-planning/index\|Capacity Planning]]
