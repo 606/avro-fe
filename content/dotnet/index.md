@@ -1,11 +1,12 @@
 ---
-{"publish":true,"aliases":".Net .Net Csharp","title":".Net","created":"2025-11-16T00:05:21.425+02:00","modified":"2025-11-16T16:58:15.718+02:00","tags":["dotnet","moc"],"cssclasses":""}
+{"publish":true,"aliases":".Net .Net Csharp","title":".Net","created":"2025-11-16T00:05:21.425+02:00","modified":"2025-11-16T17:01:57.580+02:00","tags":["dotnet","moc"],"cssclasses":""}
 ---
 
 
 [[./dotnet-moc\|.Net Moc]]
 [[dotnet/get-started/index\|Get Started Stack]]
 [[dotnet/fundamentals/index\|Fundamentals Stack]]
+[[dotnet/data-access/index\|Data Access Stack]]
 [[dotnet/architecture/index\|Architecture Stack]]
 [[dotnet/runtime/index\|Runtime Stack]]
 [[dotnet/security/index\|Security Stack]]
@@ -18,6 +19,7 @@
 [[dotnet/mobile/index\|Mobile Stack]]
 [[dotnet/web/index\|Web Stack]]
 [[dotnet/testing/index\|Testing Stack]]
+[[dotnet/monitoring/index\|Monitoring Stack]]
 [[dotnet/distributed/index\|Distributed Stack]]
 [[dotnet/machine-learning/index\|Machine Learning Stack]]
 [[dotnet/azure/index\|Azure Stack]]
